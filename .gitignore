@@ -1,0 +1,18 @@
+# Visual Studio & MSBuild
+.vs/
+bin/
+obj/
+*.user
+*.aps
+*.pch
+*.vsix
+
+# Python Virtual Environments
+.venv/
+__pycache__/
+*.pyc
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
