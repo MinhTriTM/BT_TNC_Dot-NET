@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 
 // Thông tin chung về assembly được quản lý thông qua tập thuộc tính bên dưới.
 // Thay đổi giá trị các thuộc tính này để cập nhật thông tin liên kết với assembly.
-[assembly: AssemblyTitle("VoiceCraft Studio Pro")]
+[assembly: AssemblyTitle("BT_TNC_Dot-NET")]
 [assembly: AssemblyDescription("Phần mềm chuyển đổi văn bản thành giọng nói AI cao cấp - Hybrid C# WinForms + VieNeu-TTS Deep Learning Engine 48kHz")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("MinhTriTM")]
-[assembly: AssemblyProduct("VoiceCraft Studio Pro - AI Text-To-Speech")]
+[assembly: AssemblyProduct("BT_TNC_Dot-NET - AI Text-To-Speech")]
 [assembly: AssemblyCopyright("Copyright © MinhTriTM 2026")]
 [assembly: AssemblyTrademark("VoiceCraft Studio")]
 [assembly: AssemblyCulture("")]

@@ -4,7 +4,7 @@
 
 ---
 
-## 1. NAMESPACE `TTS_Windows_App.Services`
+## 1. NAMESPACE `BT_TNC_Dot-NET.Services`
 
 ### 1.1. CLASS `TtsService` — Dịch Vụ SAPI5
 
@@ -58,7 +58,7 @@ Cầu nối C# → Python thông qua `System.Diagnostics.Process`, gọi script 
 
 ---
 
-## 2. NAMESPACE `TTS_Windows_App.Models`
+## 2. NAMESPACE `BT_TNC_Dot-NET.Models`
 
 ### 2.1. CLASS `VoiceItem`
 
@@ -87,7 +87,7 @@ Lưu trữ một mục lịch sử đọc văn bản.
 
 ---
 
-## 3. NAMESPACE `TTS_Windows_App.Helpers`
+## 3. NAMESPACE `BT_TNC_Dot-NET.Helpers`
 
 ### 3.1. CLASS `ThemeManager`
 
@@ -153,7 +153,7 @@ static extern bool ReleaseCapture();
 
 ---
 
-## 4. NAMESPACE `TTS_Windows_App.Controls`
+## 4. NAMESPACE `BT_TNC_Dot-NET.Controls`
 
 ### 4.1. CLASS `ModernButton : Button`
 

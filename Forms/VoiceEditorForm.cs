@@ -3,10 +3,10 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
-using TTS_Windows_App.Models;
-using TTS_Windows_App.Services;
+using BT_TNC_Dot_NET.Models;
+using BT_TNC_Dot_NET.Services;
 
-namespace TTS_Windows_App.Forms
+namespace BT_TNC_Dot_NET.Forms
 {
     public partial class VoiceEditorForm : Form
     {

@@ -4,12 +4,12 @@ using System.Drawing;
 using System.IO;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
-using TTS_Windows_App.Controls;
-using TTS_Windows_App.Helpers;
-using TTS_Windows_App.Models;
-using TTS_Windows_App.Services;
+using BT_TNC_Dot_NET.Controls;
+using BT_TNC_Dot_NET.Helpers;
+using BT_TNC_Dot_NET.Models;
+using BT_TNC_Dot_NET.Services;
 
-namespace TTS_Windows_App
+namespace BT_TNC_Dot_NET
 {
     public partial class MainForm : Form
     {

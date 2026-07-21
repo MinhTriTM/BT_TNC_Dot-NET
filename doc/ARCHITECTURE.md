@@ -183,7 +183,7 @@ sequenceDiagram
 ## 6. CẤU TRÚC THƯ MỤC
 
 ```
-TTS_Windows_App/
+BT_TNC_Dot-NET/
 ├── Controls/                    # Custom Controls GDI+
 │   ├── ModernButton.cs          # Nút bấm bo góc
 │   ├── ModernEqualizerControl.cs# 10-Band Graphic EQ
@@ -212,5 +212,5 @@ TTS_Windows_App/
 ├── MainForm.resx                # Resources
 ├── Program.cs                   # Entry point
 ├── App.config                   # Cấu hình ứng dụng
-└── TTS_Windows_App.csproj       # Project file (.NET 4.8)
+└── BT_TNC_Dot-NET.csproj       # Project file (.NET 4.8)
 ```

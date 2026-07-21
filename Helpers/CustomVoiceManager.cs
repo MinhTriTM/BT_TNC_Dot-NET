@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Web.Script.Serialization;
-using TTS_Windows_App.Services;
+using BT_TNC_Dot_NET.Services;
 
-namespace TTS_Windows_App.Helpers
+namespace BT_TNC_Dot_NET.Helpers
 {
     public static class CustomVoiceManager
     {

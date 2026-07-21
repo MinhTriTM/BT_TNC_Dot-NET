@@ -1,6 +1,6 @@
 using System;
 
-namespace TTS_Windows_App.Models
+namespace BT_TNC_Dot_NET.Models
 {
     /// <summary>
     /// Lớp đại diện cho thông tin giọng đọc trong hệ thống

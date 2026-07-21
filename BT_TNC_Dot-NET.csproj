@@ -5,8 +5,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{CE8320B3-5695-45E5-85E2-96F099ADF660}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>TTS_Windows_App</RootNamespace>
-    <AssemblyName>TTS_Windows_App</AssemblyName>
+    <RootNamespace>BT_TNC_Dot_NET</RootNamespace>
+    <AssemblyName>BT_TNC_Dot-NET</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

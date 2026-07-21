@@ -4,7 +4,7 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Windows.Forms;
 
-namespace TTS_Windows_App.Controls
+namespace BT_TNC_Dot_NET.Controls
 {
     public class WaveformVisualizer : Control
     {

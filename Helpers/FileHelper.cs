@@ -2,7 +2,7 @@ using System;
 using System.IO;
 using System.Text;
 
-namespace TTS_Windows_App.Helpers
+namespace BT_TNC_Dot_NET.Helpers
 {
     public static class FileHelper
     {

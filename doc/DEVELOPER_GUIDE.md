@@ -21,16 +21,16 @@
 ```powershell
 # Clone repository
 git clone https://github.com/MinhTriTM/BT_TNC_Dot-NET.git
-cd "BT_TNC_Dot-NET/Bài Tự Nghiên Cứu/TTS_Windows_App"
+cd "BT_TNC_Dot-NET/Bài Tự Nghiên Cứu/BT_TNC_Dot-NET"
 
 # Biên dịch Debug
-dotnet build TTS_Windows_App.csproj -c Debug
+dotnet build BT_TNC_Dot-NET.csproj -c Debug
 
 # Biên dịch Release
-dotnet build TTS_Windows_App.csproj -c Release
+dotnet build BT_TNC_Dot-NET.csproj -c Release
 
 # Chạy ứng dụng
-.\bin\Debug\TTS_Windows_App.exe
+.\bin\Debug\BT_TNC_Dot-NET.exe
 ```
 
 **Cài đặt VieNeu-TTS (tùy chọn):**
@@ -44,7 +44,7 @@ uv sync          # hoặc pip install -r requirements.txt
 ## 3. CẤU TRÚC THƯ MỤC DỰ ÁN
 
 ```
-TTS_Windows_App/
+BT_TNC_Dot-NET/
 ├── Controls/                     # 5 Custom Controls GDI+
 │   ├── ModernButton.cs           #   Nút bấm bo góc 3 trạng thái
 │   ├── ModernEqualizerControl.cs #   10-Band Graphic Equalizer
@@ -70,7 +70,7 @@ TTS_Windows_App/
 ├── MainForm.Designer.cs          # Layout (2,154 dòng)
 ├── Program.cs                    # Entry point
 ├── App.config                    # Cấu hình ứng dụng
-└── TTS_Windows_App.csproj        # Project file .NET 4.8
+└── BT_TNC_Dot-NET.csproj        # Project file .NET 4.8
 ```
 
 ---
@@ -83,7 +83,7 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Windows.Forms;
 
-namespace TTS_Windows_App.Controls
+namespace BT_TNC_Dot-NET.Controls
 {
     // Kế thừa Control (hoặc UserControl, Panel, Button)
     public class MyNewControl : Control

@@ -1,9 +1,9 @@
 using System;
 using System.Drawing;
 using System.Windows.Forms;
-using TTS_Windows_App.Controls;
+using BT_TNC_Dot_NET.Controls;
 
-namespace TTS_Windows_App.Helpers
+namespace BT_TNC_Dot_NET.Helpers
 {
     public enum AppThemeMode
     {

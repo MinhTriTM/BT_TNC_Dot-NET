@@ -27,7 +27,7 @@
 ## 📁 CẤU TRÚC DỰ ÁN
 
 ```
-TTS_Windows_App/
+BT_TNC_Dot-NET/
 ├── Controls/                     # 5 Custom Controls GDI+
 │   ├── ModernButton.cs           #   Nút bấm bo góc 3 trạng thái
 │   ├── ModernEqualizerControl.cs #   10-Band Graphic Equalizer
@@ -58,7 +58,7 @@ TTS_Windows_App/
 ├── MainForm.Designer.cs          # Layout Designer (2,154 dòng)
 ├── Program.cs                    # Entry point
 ├── App.config                    # Cấu hình ứng dụng
-└── TTS_Windows_App.csproj        # Project file .NET 4.8
+└── BT_TNC_Dot-NET.csproj        # Project file .NET 4.8
 ```
 
 ---
@@ -80,16 +80,16 @@ TTS_Windows_App/
 ### Cách 1: Mở bằng Visual Studio
 ```
 1. Clone repository: git clone https://github.com/MinhTriTM/BT_TNC_Dot-NET.git
-2. Mở file TTS_Windows_App.slnx bằng Visual Studio 2022/2026
+2. Mở file BT_TNC_Dot-NET.slnx bằng Visual Studio 2022/2026
 3. Nhấn F5 để chạy
 ```
 
 ### Cách 2: Command Line
 ```powershell
 git clone https://github.com/MinhTriTM/BT_TNC_Dot-NET.git
-cd "BT_TNC_Dot-NET\Bài Tự Nghiên Cứu\TTS_Windows_App"
-dotnet build TTS_Windows_App.csproj
-.\bin\Debug\TTS_Windows_App.exe
+cd "BT_TNC_Dot-NET\Bài Tự Nghiên Cứu\BT_TNC_Dot-NET"
+dotnet build BT_TNC_Dot-NET.csproj
+.\bin\Debug\BT_TNC_Dot-NET.exe
 ```
 
 ### Cài đặt VieNeu-TTS (tùy chọn — cho engine AI)

@@ -1,7 +1,7 @@
 using System;
 using System.Windows.Forms;
 
-namespace TTS_Windows_App
+namespace BT_TNC_Dot_NET
 {
     internal static class Program
     {

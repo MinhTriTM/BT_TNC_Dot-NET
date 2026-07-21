@@ -6,8 +6,9 @@ using System.IO;
 using System.Media;
 using System.Text;
 using System.Threading.Tasks;
+using BT_TNC_Dot_NET.Models;
 
-namespace TTS_Windows_App.Services
+namespace BT_TNC_Dot_NET.Services
 {
     public class VieNeuVoiceItem
     {

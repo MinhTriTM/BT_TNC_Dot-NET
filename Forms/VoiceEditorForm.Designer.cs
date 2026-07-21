@@ -1,4 +1,4 @@
-namespace TTS_Windows_App.Forms
+namespace BT_TNC_Dot_NET.Forms
 {
     partial class VoiceEditorForm
     {
@@ -17,7 +17,7 @@ namespace TTS_Windows_App.Forms
 
         private void InitializeComponent()
         {
-            this.pnlHeaderCard = new TTS_Windows_App.Controls.RoundedPanel();
+            this.pnlHeaderCard = new BT_TNC_Dot_NET.Controls.RoundedPanel();
             this.lblTitle = new System.Windows.Forms.Label();
             this.btnClose = new System.Windows.Forms.Label();
             this.lblName = new System.Windows.Forms.Label();
@@ -32,8 +32,8 @@ namespace TTS_Windows_App.Forms
             this.cboPersona = new System.Windows.Forms.ComboBox();
             this.lblRegion = new System.Windows.Forms.Label();
             this.cboRegion = new System.Windows.Forms.ComboBox();
-            this.btnSave = new TTS_Windows_App.Controls.ModernButton();
-            this.btnCancel = new TTS_Windows_App.Controls.ModernButton();
+            this.btnSave = new BT_TNC_Dot_NET.Controls.ModernButton();
+            this.btnCancel = new BT_TNC_Dot_NET.Controls.ModernButton();
             this.pnlHeaderCard.SuspendLayout();
             this.SuspendLayout();
             // 

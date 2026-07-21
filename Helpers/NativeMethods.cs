@@ -1,7 +1,7 @@
 using System;
 using System.Runtime.InteropServices;
 
-namespace TTS_Windows_App
+namespace BT_TNC_Dot_NET
 {
     public static class NativeMethods
     {

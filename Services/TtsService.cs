@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.Speech.Synthesis;
 using System.Threading.Tasks;
-using TTS_Windows_App.Models;
+using BT_TNC_Dot_NET.Models;
 
-namespace TTS_Windows_App.Services
+namespace BT_TNC_Dot_NET.Services
 {
     /// <summary>
     /// Lớp dịch vụ chuyển đổi văn bản thành giọng nói (Text-To-Speech)

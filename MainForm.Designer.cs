@@ -2,9 +2,9 @@ using System;
 using System.ComponentModel;
 using System.Drawing;
 using System.Windows.Forms;
-using TTS_Windows_App.Controls;
+using BT_TNC_Dot_NET.Controls;
 
-namespace TTS_Windows_App
+namespace BT_TNC_Dot_NET
 {
     partial class MainForm
     {
@@ -24,7 +24,7 @@ namespace TTS_Windows_App
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.pnlHeaderCard = new TTS_Windows_App.Controls.RoundedPanel();
+            this.pnlHeaderCard = new BT_TNC_Dot_NET.Controls.RoundedPanel();
             this.cboThemeSelection = new System.Windows.Forms.ComboBox();
             this.cboLanguageSelection = new System.Windows.Forms.ComboBox();
             this.btnCloseApp = new System.Windows.Forms.Label();
@@ -67,63 +67,63 @@ namespace TTS_Windows_App
             this.ctxClear = new System.Windows.Forms.ToolStripMenuItem();
             this.ctxSpeakSelected = new System.Windows.Forms.ToolStripMenuItem();
             this.pnlLeftControlSidebar = new System.Windows.Forms.Panel();
-            this.cardFileActions = new TTS_Windows_App.Controls.RoundedPanel();
+            this.cardFileActions = new BT_TNC_Dot_NET.Controls.RoundedPanel();
             this.lblFileSectionTitle = new System.Windows.Forms.Label();
-            this.btnExportAudioWav = new TTS_Windows_App.Controls.ModernButton();
-            this.btnBrowseFile = new TTS_Windows_App.Controls.ModernButton();
-            this.cardAudioSettings = new TTS_Windows_App.Controls.RoundedPanel();
+            this.btnExportAudioWav = new BT_TNC_Dot_NET.Controls.ModernButton();
+            this.btnBrowseFile = new BT_TNC_Dot_NET.Controls.ModernButton();
+            this.cardAudioSettings = new BT_TNC_Dot_NET.Controls.RoundedPanel();
             this.lblAudioSectionTitle = new System.Windows.Forms.Label();
             this.lblSpeedRateText = new System.Windows.Forms.Label();
             this.lblSpeedRateValue = new System.Windows.Forms.Label();
-            this.trkSpeedRate = new TTS_Windows_App.Controls.ModernTrackBar();
+            this.trkSpeedRate = new BT_TNC_Dot_NET.Controls.ModernTrackBar();
             this.lblPitchRateText = new System.Windows.Forms.Label();
             this.lblPitchRateValue = new System.Windows.Forms.Label();
-            this.trkPitchRate = new TTS_Windows_App.Controls.ModernTrackBar();
+            this.trkPitchRate = new BT_TNC_Dot_NET.Controls.ModernTrackBar();
             this.lblVolumeLevelText = new System.Windows.Forms.Label();
             this.lblVolumeLevelValue = new System.Windows.Forms.Label();
-            this.trkVolumeLevel = new TTS_Windows_App.Controls.ModernTrackBar();
+            this.trkVolumeLevel = new BT_TNC_Dot_NET.Controls.ModernTrackBar();
             this.lblGraphicEqTitle = new System.Windows.Forms.Label();
-            this.graphicEqControl = new TTS_Windows_App.Controls.ModernEqualizerControl();
-            this.cardVoiceCloning = new TTS_Windows_App.Controls.RoundedPanel();
+            this.graphicEqControl = new BT_TNC_Dot_NET.Controls.ModernEqualizerControl();
+            this.cardVoiceCloning = new BT_TNC_Dot_NET.Controls.RoundedPanel();
             this.lblCloneSectionTitle = new System.Windows.Forms.Label();
             this.chkEnableVoiceCloning = new System.Windows.Forms.CheckBox();
-            this.btnSelectCloneAudio = new TTS_Windows_App.Controls.ModernButton();
+            this.btnSelectCloneAudio = new BT_TNC_Dot_NET.Controls.ModernButton();
             this.lblCloneAudioStatus = new System.Windows.Forms.Label();
-            this.cardVoiceSelection = new TTS_Windows_App.Controls.RoundedPanel();
+            this.cardVoiceSelection = new BT_TNC_Dot_NET.Controls.RoundedPanel();
             this.lblEngineTitle = new System.Windows.Forms.Label();
             this.pnlEngineSegment = new System.Windows.Forms.FlowLayoutPanel();
-            this.btnEngineVieNeu = new TTS_Windows_App.Controls.ModernButton();
-            this.btnEngineSapi = new TTS_Windows_App.Controls.ModernButton();
+            this.btnEngineVieNeu = new BT_TNC_Dot_NET.Controls.ModernButton();
+            this.btnEngineSapi = new BT_TNC_Dot_NET.Controls.ModernButton();
             this.lblVoiceSectionTitle = new System.Windows.Forms.Label();
             this.cboVoiceSelection = new System.Windows.Forms.ComboBox();
             this.lblTimbreTitle = new System.Windows.Forms.Label();
             this.pnlTimbreSegment = new System.Windows.Forms.FlowLayoutPanel();
-            this.btnTimbreStandard = new TTS_Windows_App.Controls.ModernButton();
-            this.btnTimbreRadio = new TTS_Windows_App.Controls.ModernButton();
-            this.btnTimbreWarm = new TTS_Windows_App.Controls.ModernButton();
-            this.btnTimbreBright = new TTS_Windows_App.Controls.ModernButton();
-            this.btnTimbreReverb = new TTS_Windows_App.Controls.ModernButton();
+            this.btnTimbreStandard = new BT_TNC_Dot_NET.Controls.ModernButton();
+            this.btnTimbreRadio = new BT_TNC_Dot_NET.Controls.ModernButton();
+            this.btnTimbreWarm = new BT_TNC_Dot_NET.Controls.ModernButton();
+            this.btnTimbreBright = new BT_TNC_Dot_NET.Controls.ModernButton();
+            this.btnTimbreReverb = new BT_TNC_Dot_NET.Controls.ModernButton();
             this.lblDurationTitle = new System.Windows.Forms.Label();
             this.pnlDurationSegment = new System.Windows.Forms.FlowLayoutPanel();
-            this.btnDurationStandard = new TTS_Windows_App.Controls.ModernButton();
-            this.btnDurationShort = new TTS_Windows_App.Controls.ModernButton();
-            this.btnDurationLong = new TTS_Windows_App.Controls.ModernButton();
+            this.btnDurationStandard = new BT_TNC_Dot_NET.Controls.ModernButton();
+            this.btnDurationShort = new BT_TNC_Dot_NET.Controls.ModernButton();
+            this.btnDurationLong = new BT_TNC_Dot_NET.Controls.ModernButton();
             this.lblPitchTuningTitle = new System.Windows.Forms.Label();
             this.pnlPitchSegment = new System.Windows.Forms.FlowLayoutPanel();
-            this.btnPitchDeep = new TTS_Windows_App.Controls.ModernButton();
-            this.btnPitchLow = new TTS_Windows_App.Controls.ModernButton();
-            this.btnPitchNormal = new TTS_Windows_App.Controls.ModernButton();
-            this.btnPitchHigh = new TTS_Windows_App.Controls.ModernButton();
-            this.btnPitchBright = new TTS_Windows_App.Controls.ModernButton();
+            this.btnPitchDeep = new BT_TNC_Dot_NET.Controls.ModernButton();
+            this.btnPitchLow = new BT_TNC_Dot_NET.Controls.ModernButton();
+            this.btnPitchNormal = new BT_TNC_Dot_NET.Controls.ModernButton();
+            this.btnPitchHigh = new BT_TNC_Dot_NET.Controls.ModernButton();
+            this.btnPitchBright = new BT_TNC_Dot_NET.Controls.ModernButton();
             this.lblStyleSectionTitle = new System.Windows.Forms.Label();
             this.pnlStyleSegment = new System.Windows.Forms.FlowLayoutPanel();
-            this.btnStyleNatural = new TTS_Windows_App.Controls.ModernButton();
-            this.btnStyleNews = new TTS_Windows_App.Controls.ModernButton();
-            this.btnStyleStory = new TTS_Windows_App.Controls.ModernButton();
-            this.btnStyleDrama = new TTS_Windows_App.Controls.ModernButton();
+            this.btnStyleNatural = new BT_TNC_Dot_NET.Controls.ModernButton();
+            this.btnStyleNews = new BT_TNC_Dot_NET.Controls.ModernButton();
+            this.btnStyleStory = new BT_TNC_Dot_NET.Controls.ModernButton();
+            this.btnStyleDrama = new BT_TNC_Dot_NET.Controls.ModernButton();
             this.lblVoiceDetails = new System.Windows.Forms.Label();
             this.pnlCenterEditorContainer = new System.Windows.Forms.Panel();
-            this.cardTextEditor = new TTS_Windows_App.Controls.RoundedPanel();
+            this.cardTextEditor = new BT_TNC_Dot_NET.Controls.RoundedPanel();
             this.txtInputContent = new System.Windows.Forms.TextBox();
             this.pnlTextEditorFooter = new System.Windows.Forms.Panel();
             this.lblEmotionTag1 = new System.Windows.Forms.Label();
@@ -131,19 +131,19 @@ namespace TTS_Windows_App
             this.lblEmotionTag3 = new System.Windows.Forms.Label();
             this.lblEmotionTag4 = new System.Windows.Forms.Label();
             this.lblCharAndWordCount = new System.Windows.Forms.Label();
-            this.cardPlaybackStatus = new TTS_Windows_App.Controls.RoundedPanel();
+            this.cardPlaybackStatus = new BT_TNC_Dot_NET.Controls.RoundedPanel();
             this.lblPlaybackStatusInfo = new System.Windows.Forms.Label();
-            this.waveformVisualizer = new TTS_Windows_App.Controls.WaveformVisualizer();
+            this.waveformVisualizer = new BT_TNC_Dot_NET.Controls.WaveformVisualizer();
             this.pnlActionButtonsContainer = new System.Windows.Forms.Panel();
-            this.btnClearInputText = new TTS_Windows_App.Controls.ModernButton();
-            this.btnStopAudio = new TTS_Windows_App.Controls.ModernButton();
-            this.btnPauseAudio = new TTS_Windows_App.Controls.ModernButton();
-            this.btnPlayText = new TTS_Windows_App.Controls.ModernButton();
+            this.btnClearInputText = new BT_TNC_Dot_NET.Controls.ModernButton();
+            this.btnStopAudio = new BT_TNC_Dot_NET.Controls.ModernButton();
+            this.btnPauseAudio = new BT_TNC_Dot_NET.Controls.ModernButton();
+            this.btnPlayText = new BT_TNC_Dot_NET.Controls.ModernButton();
             this.pnlRightHistorySidebar = new System.Windows.Forms.Panel();
-            this.cardHistoryLogs = new TTS_Windows_App.Controls.RoundedPanel();
+            this.cardHistoryLogs = new BT_TNC_Dot_NET.Controls.RoundedPanel();
             this.lblHistorySectionTitle = new System.Windows.Forms.Label();
             this.lstHistoryLogs = new System.Windows.Forms.ListBox();
-            this.btnClearHistoryRecords = new TTS_Windows_App.Controls.ModernButton();
+            this.btnClearHistoryRecords = new BT_TNC_Dot_NET.Controls.ModernButton();
             this.pnlHeaderCard.SuspendLayout();
             this.mainMenuStrip.SuspendLayout();
             this.mainToolStrip.SuspendLayout();
@@ -2008,7 +2008,7 @@ namespace TTS_Windows_App
 
         #endregion
 
-        private TTS_Windows_App.Controls.RoundedPanel pnlHeaderCard;
+        private BT_TNC_Dot_NET.Controls.RoundedPanel pnlHeaderCard;
         private System.Windows.Forms.Label lblAppTitle;
         private System.Windows.Forms.Label lblAppSubtitle;
         private System.Windows.Forms.Label btnCloseApp;
@@ -2059,73 +2059,73 @@ namespace TTS_Windows_App
         private System.Windows.Forms.ToolStripMenuItem ctxSpeakSelected;
 
         private System.Windows.Forms.Panel pnlLeftControlSidebar;
-        private TTS_Windows_App.Controls.RoundedPanel cardVoiceSelection;
+        private BT_TNC_Dot_NET.Controls.RoundedPanel cardVoiceSelection;
         private System.Windows.Forms.Label lblEngineTitle;
         private System.Windows.Forms.FlowLayoutPanel pnlEngineSegment;
-        private TTS_Windows_App.Controls.ModernButton btnEngineVieNeu;
-        private TTS_Windows_App.Controls.ModernButton btnEngineSapi;
+        private BT_TNC_Dot_NET.Controls.ModernButton btnEngineVieNeu;
+        private BT_TNC_Dot_NET.Controls.ModernButton btnEngineSapi;
 
         private System.Windows.Forms.Label lblVoiceSectionTitle;
         private System.Windows.Forms.ComboBox cboVoiceSelection;
 
         private System.Windows.Forms.Label lblTimbreTitle;
         private System.Windows.Forms.FlowLayoutPanel pnlTimbreSegment;
-        private TTS_Windows_App.Controls.ModernButton btnTimbreStandard;
-        private TTS_Windows_App.Controls.ModernButton btnTimbreRadio;
-        private TTS_Windows_App.Controls.ModernButton btnTimbreWarm;
-        private TTS_Windows_App.Controls.ModernButton btnTimbreBright;
-        private TTS_Windows_App.Controls.ModernButton btnTimbreReverb;
+        private BT_TNC_Dot_NET.Controls.ModernButton btnTimbreStandard;
+        private BT_TNC_Dot_NET.Controls.ModernButton btnTimbreRadio;
+        private BT_TNC_Dot_NET.Controls.ModernButton btnTimbreWarm;
+        private BT_TNC_Dot_NET.Controls.ModernButton btnTimbreBright;
+        private BT_TNC_Dot_NET.Controls.ModernButton btnTimbreReverb;
 
         private System.Windows.Forms.Label lblDurationTitle;
         private System.Windows.Forms.FlowLayoutPanel pnlDurationSegment;
-        private TTS_Windows_App.Controls.ModernButton btnDurationStandard;
-        private TTS_Windows_App.Controls.ModernButton btnDurationShort;
-        private TTS_Windows_App.Controls.ModernButton btnDurationLong;
+        private BT_TNC_Dot_NET.Controls.ModernButton btnDurationStandard;
+        private BT_TNC_Dot_NET.Controls.ModernButton btnDurationShort;
+        private BT_TNC_Dot_NET.Controls.ModernButton btnDurationLong;
 
         private System.Windows.Forms.Label lblPitchTuningTitle;
         private System.Windows.Forms.FlowLayoutPanel pnlPitchSegment;
-        private TTS_Windows_App.Controls.ModernButton btnPitchDeep;
-        private TTS_Windows_App.Controls.ModernButton btnPitchLow;
-        private TTS_Windows_App.Controls.ModernButton btnPitchNormal;
-        private TTS_Windows_App.Controls.ModernButton btnPitchHigh;
-        private TTS_Windows_App.Controls.ModernButton btnPitchBright;
+        private BT_TNC_Dot_NET.Controls.ModernButton btnPitchDeep;
+        private BT_TNC_Dot_NET.Controls.ModernButton btnPitchLow;
+        private BT_TNC_Dot_NET.Controls.ModernButton btnPitchNormal;
+        private BT_TNC_Dot_NET.Controls.ModernButton btnPitchHigh;
+        private BT_TNC_Dot_NET.Controls.ModernButton btnPitchBright;
 
         private System.Windows.Forms.Label lblStyleSectionTitle;
         private System.Windows.Forms.FlowLayoutPanel pnlStyleSegment;
-        private TTS_Windows_App.Controls.ModernButton btnStyleNatural;
-        private TTS_Windows_App.Controls.ModernButton btnStyleNews;
-        private TTS_Windows_App.Controls.ModernButton btnStyleStory;
-        private TTS_Windows_App.Controls.ModernButton btnStyleDrama;
+        private BT_TNC_Dot_NET.Controls.ModernButton btnStyleNatural;
+        private BT_TNC_Dot_NET.Controls.ModernButton btnStyleNews;
+        private BT_TNC_Dot_NET.Controls.ModernButton btnStyleStory;
+        private BT_TNC_Dot_NET.Controls.ModernButton btnStyleDrama;
 
         private System.Windows.Forms.Label lblVoiceDetails;
 
-        private TTS_Windows_App.Controls.RoundedPanel cardVoiceCloning;
+        private BT_TNC_Dot_NET.Controls.RoundedPanel cardVoiceCloning;
         private System.Windows.Forms.Label lblCloneSectionTitle;
         private System.Windows.Forms.CheckBox chkEnableVoiceCloning;
-        private TTS_Windows_App.Controls.ModernButton btnSelectCloneAudio;
-        private TTS_Windows_App.Controls.ModernButton btnBrowseFile;
-        private TTS_Windows_App.Controls.ModernButton btnExportAudioWav;
+        private BT_TNC_Dot_NET.Controls.ModernButton btnSelectCloneAudio;
+        private BT_TNC_Dot_NET.Controls.ModernButton btnBrowseFile;
+        private BT_TNC_Dot_NET.Controls.ModernButton btnExportAudioWav;
         private System.Windows.Forms.Label lblCloneAudioStatus;
 
-        private TTS_Windows_App.Controls.RoundedPanel cardAudioSettings;
+        private BT_TNC_Dot_NET.Controls.RoundedPanel cardAudioSettings;
         private System.Windows.Forms.Label lblAudioSectionTitle;
         private System.Windows.Forms.Label lblSpeedRateText;
         private System.Windows.Forms.Label lblSpeedRateValue;
-        private TTS_Windows_App.Controls.ModernTrackBar trkSpeedRate;
+        private BT_TNC_Dot_NET.Controls.ModernTrackBar trkSpeedRate;
         private System.Windows.Forms.Label lblPitchRateText;
         private System.Windows.Forms.Label lblPitchRateValue;
-        private TTS_Windows_App.Controls.ModernTrackBar trkPitchRate;
+        private BT_TNC_Dot_NET.Controls.ModernTrackBar trkPitchRate;
         private System.Windows.Forms.Label lblVolumeLevelText;
         private System.Windows.Forms.Label lblVolumeLevelValue;
-        private TTS_Windows_App.Controls.ModernTrackBar trkVolumeLevel;
+        private BT_TNC_Dot_NET.Controls.ModernTrackBar trkVolumeLevel;
         private System.Windows.Forms.Label lblGraphicEqTitle;
-        private TTS_Windows_App.Controls.ModernEqualizerControl graphicEqControl;
+        private BT_TNC_Dot_NET.Controls.ModernEqualizerControl graphicEqControl;
 
-        private TTS_Windows_App.Controls.RoundedPanel cardFileActions;
+        private BT_TNC_Dot_NET.Controls.RoundedPanel cardFileActions;
         private System.Windows.Forms.Label lblFileSectionTitle;
 
         private System.Windows.Forms.Panel pnlCenterEditorContainer;
-        private TTS_Windows_App.Controls.RoundedPanel cardTextEditor;
+        private BT_TNC_Dot_NET.Controls.RoundedPanel cardTextEditor;
         private System.Windows.Forms.TextBox txtInputContent;
         private System.Windows.Forms.Panel pnlTextEditorFooter;
         private System.Windows.Forms.Label lblEmotionTag1;
@@ -2134,20 +2134,20 @@ namespace TTS_Windows_App
         private System.Windows.Forms.Label lblEmotionTag4;
         private System.Windows.Forms.Label lblCharAndWordCount;
 
-        private TTS_Windows_App.Controls.RoundedPanel cardPlaybackStatus;
+        private BT_TNC_Dot_NET.Controls.RoundedPanel cardPlaybackStatus;
         private System.Windows.Forms.Label lblPlaybackStatusInfo;
-        private TTS_Windows_App.Controls.WaveformVisualizer waveformVisualizer;
+        private BT_TNC_Dot_NET.Controls.WaveformVisualizer waveformVisualizer;
 
         private System.Windows.Forms.Panel pnlActionButtonsContainer;
-        private TTS_Windows_App.Controls.ModernButton btnPlayText;
-        private TTS_Windows_App.Controls.ModernButton btnPauseAudio;
-        private TTS_Windows_App.Controls.ModernButton btnStopAudio;
-        private TTS_Windows_App.Controls.ModernButton btnClearInputText;
+        private BT_TNC_Dot_NET.Controls.ModernButton btnPlayText;
+        private BT_TNC_Dot_NET.Controls.ModernButton btnPauseAudio;
+        private BT_TNC_Dot_NET.Controls.ModernButton btnStopAudio;
+        private BT_TNC_Dot_NET.Controls.ModernButton btnClearInputText;
 
         private System.Windows.Forms.Panel pnlRightHistorySidebar;
-        private TTS_Windows_App.Controls.RoundedPanel cardHistoryLogs;
+        private BT_TNC_Dot_NET.Controls.RoundedPanel cardHistoryLogs;
         private System.Windows.Forms.Label lblHistorySectionTitle;
         private System.Windows.Forms.ListBox lstHistoryLogs;
-        private TTS_Windows_App.Controls.ModernButton btnClearHistoryRecords;
+        private BT_TNC_Dot_NET.Controls.ModernButton btnClearHistoryRecords;
     }
 }
