@@ -96,6 +96,13 @@ namespace BT_TNC_Dot_NET.Services
                 StandardOutputEncoding = Encoding.UTF8
             };
 
+            // Tự động bật chế độ Offline cho Hugging Face Hub nếu không có mạng để tránh crash khi check update
+            if (!System.Net.NetworkInformation.NetworkInterface.GetIsNetworkAvailable())
+            {
+                psi.EnvironmentVariables["HF_HUB_OFFLINE"] = "1";
+            }
+            psi.EnvironmentVariables["HF_HUB_DISABLE_SYMLINKS_WARNING"] = "1";
+
             return await Task.Run(() =>
             {
                 using (_runningProcess = Process.Start(psi))
