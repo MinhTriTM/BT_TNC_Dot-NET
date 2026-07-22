@@ -184,9 +184,10 @@ namespace BT_TNC_Dot_NET
             this.pnlHeaderCard.GradientBottomColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(24)))));
             this.pnlHeaderCard.GradientTopColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(38)))));
             this.pnlHeaderCard.Location = new System.Drawing.Point(0, 0);
+            this.pnlHeaderCard.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pnlHeaderCard.Name = "pnlHeaderCard";
-            this.pnlHeaderCard.Padding = new System.Windows.Forms.Padding(16, 10, 16, 10);
-            this.pnlHeaderCard.Size = new System.Drawing.Size(1150, 75);
+            this.pnlHeaderCard.Padding = new System.Windows.Forms.Padding(24, 15, 24, 15);
+            this.pnlHeaderCard.Size = new System.Drawing.Size(1725, 115);
             this.pnlHeaderCard.TabIndex = 0;
             this.pnlHeaderCard.DoubleClick += new System.EventHandler(this.Header_DoubleClick);
             this.pnlHeaderCard.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Header_MouseDown);
@@ -207,9 +208,10 @@ namespace BT_TNC_Dot_NET
             "🌲 Emerald Studio",
             "❄️ Nordic Light",
             "🌅 Sunset Crimson"});
-            this.cboThemeSelection.Location = new System.Drawing.Point(710, 22);
+            this.cboThemeSelection.Location = new System.Drawing.Point(1065, 34);
+            this.cboThemeSelection.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cboThemeSelection.Name = "cboThemeSelection";
-            this.cboThemeSelection.Size = new System.Drawing.Size(170, 21);
+            this.cboThemeSelection.Size = new System.Drawing.Size(253, 31);
             this.cboThemeSelection.TabIndex = 5;
             this.cboThemeSelection.SelectedIndexChanged += new System.EventHandler(this.cboThemeSelection_SelectedIndexChanged);
             // 
@@ -225,9 +227,10 @@ namespace BT_TNC_Dot_NET
             this.cboLanguageSelection.Items.AddRange(new object[] {
             "🇻🇳 Tiếng Việt",
             "🇬🇧 English"});
-            this.cboLanguageSelection.Location = new System.Drawing.Point(888, 22);
+            this.cboLanguageSelection.Location = new System.Drawing.Point(1332, 34);
+            this.cboLanguageSelection.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cboLanguageSelection.Name = "cboLanguageSelection";
-            this.cboLanguageSelection.Size = new System.Drawing.Size(100, 21);
+            this.cboLanguageSelection.Size = new System.Drawing.Size(148, 31);
             this.cboLanguageSelection.TabIndex = 4;
             this.cboLanguageSelection.SelectedIndexChanged += new System.EventHandler(this.cboLanguageSelection_SelectedIndexChanged);
             // 
@@ -237,9 +240,10 @@ namespace BT_TNC_Dot_NET
             this.btnCloseApp.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCloseApp.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
             this.btnCloseApp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(148)))), ((int)(((byte)(163)))), ((int)(((byte)(184)))));
-            this.btnCloseApp.Location = new System.Drawing.Point(1105, 18);
+            this.btnCloseApp.Location = new System.Drawing.Point(1658, 28);
+            this.btnCloseApp.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.btnCloseApp.Name = "btnCloseApp";
-            this.btnCloseApp.Size = new System.Drawing.Size(30, 30);
+            this.btnCloseApp.Size = new System.Drawing.Size(45, 46);
             this.btnCloseApp.TabIndex = 3;
             this.btnCloseApp.Text = "✕";
             this.btnCloseApp.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -253,9 +257,10 @@ namespace BT_TNC_Dot_NET
             this.btnMaximizeApp.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMaximizeApp.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold);
             this.btnMaximizeApp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(148)))), ((int)(((byte)(163)))), ((int)(((byte)(184)))));
-            this.btnMaximizeApp.Location = new System.Drawing.Point(1070, 18);
+            this.btnMaximizeApp.Location = new System.Drawing.Point(1605, 28);
+            this.btnMaximizeApp.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.btnMaximizeApp.Name = "btnMaximizeApp";
-            this.btnMaximizeApp.Size = new System.Drawing.Size(30, 30);
+            this.btnMaximizeApp.Size = new System.Drawing.Size(45, 46);
             this.btnMaximizeApp.TabIndex = 2;
             this.btnMaximizeApp.Text = "❐";
             this.btnMaximizeApp.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -269,9 +274,10 @@ namespace BT_TNC_Dot_NET
             this.btnMinimizeApp.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMinimizeApp.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
             this.btnMinimizeApp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(148)))), ((int)(((byte)(163)))), ((int)(((byte)(184)))));
-            this.btnMinimizeApp.Location = new System.Drawing.Point(1035, 18);
+            this.btnMinimizeApp.Location = new System.Drawing.Point(1552, 28);
+            this.btnMinimizeApp.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.btnMinimizeApp.Name = "btnMinimizeApp";
-            this.btnMinimizeApp.Size = new System.Drawing.Size(30, 30);
+            this.btnMinimizeApp.Size = new System.Drawing.Size(45, 46);
             this.btnMinimizeApp.TabIndex = 1;
             this.btnMinimizeApp.Text = "─";
             this.btnMinimizeApp.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -285,9 +291,10 @@ namespace BT_TNC_Dot_NET
             this.lblAppSubtitle.BackColor = System.Drawing.Color.Transparent;
             this.lblAppSubtitle.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.lblAppSubtitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(185)))), ((int)(((byte)(200)))));
-            this.lblAppSubtitle.Location = new System.Drawing.Point(20, 42);
+            this.lblAppSubtitle.Location = new System.Drawing.Point(30, 65);
+            this.lblAppSubtitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblAppSubtitle.Name = "lblAppSubtitle";
-            this.lblAppSubtitle.Size = new System.Drawing.Size(434, 15);
+            this.lblAppSubtitle.Size = new System.Drawing.Size(649, 25);
             this.lblAppSubtitle.TabIndex = 0;
             this.lblAppSubtitle.Text = "Phần mềm chuyển đổi văn bản thành giọng nói AI cao cấp (.NET Framework 4.8)";
             this.lblAppSubtitle.DoubleClick += new System.EventHandler(this.Header_DoubleClick);
@@ -299,9 +306,10 @@ namespace BT_TNC_Dot_NET
             this.lblAppTitle.BackColor = System.Drawing.Color.Transparent;
             this.lblAppTitle.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold);
             this.lblAppTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
-            this.lblAppTitle.Location = new System.Drawing.Point(16, 12);
+            this.lblAppTitle.Location = new System.Drawing.Point(24, 18);
+            this.lblAppTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblAppTitle.Name = "lblAppTitle";
-            this.lblAppTitle.Size = new System.Drawing.Size(470, 28);
+            this.lblAppTitle.Size = new System.Drawing.Size(707, 41);
             this.lblAppTitle.TabIndex = 0;
             this.lblAppTitle.Text = "🎙️ VOICECRAFT STUDIO | AI Text-To-Speech Pro";
             this.lblAppTitle.DoubleClick += new System.EventHandler(this.Header_DoubleClick);
@@ -311,16 +319,17 @@ namespace BT_TNC_Dot_NET
             // 
             this.mainMenuStrip.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(34)))));
             this.mainMenuStrip.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.mainMenuStrip.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.mainMenuStrip.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.mainMenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuFile,
             this.menuEdit,
             this.menuVoice,
             this.menuHelp});
-            this.mainMenuStrip.Location = new System.Drawing.Point(0, 75);
+            this.mainMenuStrip.Location = new System.Drawing.Point(0, 115);
             this.mainMenuStrip.Name = "mainMenuStrip";
-            this.mainMenuStrip.Padding = new System.Windows.Forms.Padding(4, 1, 0, 1);
-            this.mainMenuStrip.Size = new System.Drawing.Size(1150, 24);
+            this.mainMenuStrip.Padding = new System.Windows.Forms.Padding(6, 2, 0, 2);
+            this.mainMenuStrip.Size = new System.Drawing.Size(1725, 33);
             this.mainMenuStrip.TabIndex = 4;
             // 
             // menuFile
@@ -331,14 +340,14 @@ namespace BT_TNC_Dot_NET
             this.menuFileExit});
             this.menuFile.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
             this.menuFile.Name = "menuFile";
-            this.menuFile.Size = new System.Drawing.Size(54, 22);
+            this.menuFile.Size = new System.Drawing.Size(87, 29);
             this.menuFile.Text = "📁 Tệp";
             // 
             // menuFileOpen
             // 
             this.menuFileOpen.Name = "menuFileOpen";
             this.menuFileOpen.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-            this.menuFileOpen.Size = new System.Drawing.Size(225, 22);
+            this.menuFileOpen.Size = new System.Drawing.Size(347, 34);
             this.menuFileOpen.Text = "📄 Mở File Văn Bản...";
             this.menuFileOpen.Click += new System.EventHandler(this.btnBrowseFile_Click);
             // 
@@ -346,7 +355,7 @@ namespace BT_TNC_Dot_NET
             // 
             this.menuFileExport.Name = "menuFileExport";
             this.menuFileExport.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.menuFileExport.Size = new System.Drawing.Size(225, 22);
+            this.menuFileExport.Size = new System.Drawing.Size(347, 34);
             this.menuFileExport.Text = "💾 Xuất File WAV...";
             this.menuFileExport.Click += new System.EventHandler(this.btnExportAudioWav_Click);
             // 
@@ -354,7 +363,7 @@ namespace BT_TNC_Dot_NET
             // 
             this.menuFileExit.Name = "menuFileExit";
             this.menuFileExit.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F4)));
-            this.menuFileExit.Size = new System.Drawing.Size(225, 22);
+            this.menuFileExit.Size = new System.Drawing.Size(347, 34);
             this.menuFileExit.Text = "✕ Thoát";
             this.menuFileExit.Click += new System.EventHandler(this.btnCloseApp_Click);
             // 
@@ -366,14 +375,14 @@ namespace BT_TNC_Dot_NET
             this.menuEditClear});
             this.menuEdit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
             this.menuEdit.Name = "menuEdit";
-            this.menuEdit.Size = new System.Drawing.Size(88, 22);
+            this.menuEdit.Size = new System.Drawing.Size(138, 29);
             this.menuEdit.Text = "✏️ Chỉnh Sửa";
             // 
             // menuEditCopy
             // 
             this.menuEditCopy.Name = "menuEditCopy";
             this.menuEditCopy.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
-            this.menuEditCopy.Size = new System.Drawing.Size(196, 22);
+            this.menuEditCopy.Size = new System.Drawing.Size(306, 34);
             this.menuEditCopy.Text = "📋 Sao Chép";
             this.menuEditCopy.Click += new System.EventHandler(this.ctxCopy_Click);
             // 
@@ -381,14 +390,14 @@ namespace BT_TNC_Dot_NET
             // 
             this.menuEditPaste.Name = "menuEditPaste";
             this.menuEditPaste.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.V)));
-            this.menuEditPaste.Size = new System.Drawing.Size(196, 22);
+            this.menuEditPaste.Size = new System.Drawing.Size(306, 34);
             this.menuEditPaste.Text = "📌 Dán Văn Bản";
             this.menuEditPaste.Click += new System.EventHandler(this.ctxPaste_Click);
             // 
             // menuEditClear
             // 
             this.menuEditClear.Name = "menuEditClear";
-            this.menuEditClear.Size = new System.Drawing.Size(196, 22);
+            this.menuEditClear.Size = new System.Drawing.Size(306, 34);
             this.menuEditClear.Text = "🗑️ Xóa Toàn Bộ";
             this.menuEditClear.Click += new System.EventHandler(this.btnClearInputText_Click);
             // 
@@ -399,20 +408,20 @@ namespace BT_TNC_Dot_NET
             this.menuVoiceEngineSapi});
             this.menuVoice.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
             this.menuVoice.Name = "menuVoice";
-            this.menuVoice.Size = new System.Drawing.Size(90, 22);
+            this.menuVoice.Size = new System.Drawing.Size(143, 29);
             this.menuVoice.Text = "🗣️ Giọng Đọc";
             // 
             // menuVoiceEngineVieNeu
             // 
             this.menuVoiceEngineVieNeu.Name = "menuVoiceEngineVieNeu";
-            this.menuVoiceEngineVieNeu.Size = new System.Drawing.Size(216, 22);
+            this.menuVoiceEngineVieNeu.Size = new System.Drawing.Size(335, 34);
             this.menuVoiceEngineVieNeu.Text = "🦜 VieNeu-TTS AI Engine";
             this.menuVoiceEngineVieNeu.Click += new System.EventHandler(this.menuVoiceEngineVieNeu_Click);
             // 
             // menuVoiceEngineSapi
             // 
             this.menuVoiceEngineSapi.Name = "menuVoiceEngineSapi";
-            this.menuVoiceEngineSapi.Size = new System.Drawing.Size(216, 22);
+            this.menuVoiceEngineSapi.Size = new System.Drawing.Size(335, 34);
             this.menuVoiceEngineSapi.Text = "🔊 Windows Native (SAPI5)";
             this.menuVoiceEngineSapi.Click += new System.EventHandler(this.menuVoiceEngineSapi_Click);
             // 
@@ -424,28 +433,28 @@ namespace BT_TNC_Dot_NET
             this.menuHelpAbout});
             this.menuHelp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
             this.menuHelp.Name = "menuHelp";
-            this.menuHelp.Size = new System.Drawing.Size(79, 22);
+            this.menuHelp.Size = new System.Drawing.Size(124, 29);
             this.menuHelp.Text = "❓ Trợ Giúp";
             // 
             // menuHelpGuide
             // 
             this.menuHelpGuide.Name = "menuHelpGuide";
             this.menuHelpGuide.ShortcutKeys = System.Windows.Forms.Keys.F1;
-            this.menuHelpGuide.Size = new System.Drawing.Size(217, 22);
+            this.menuHelpGuide.Size = new System.Drawing.Size(343, 34);
             this.menuHelpGuide.Text = "📖 Hướng Dẫn Sử Dụng";
             this.menuHelpGuide.Click += new System.EventHandler(this.menuHelpGuide_Click);
             // 
             // menuHelpReport
             // 
             this.menuHelpReport.Name = "menuHelpReport";
-            this.menuHelpReport.Size = new System.Drawing.Size(217, 22);
+            this.menuHelpReport.Size = new System.Drawing.Size(343, 34);
             this.menuHelpReport.Text = "📑 Báo Cáo R&D Dự Án";
             this.menuHelpReport.Click += new System.EventHandler(this.menuHelpReport_Click);
             // 
             // menuHelpAbout
             // 
             this.menuHelpAbout.Name = "menuHelpAbout";
-            this.menuHelpAbout.Size = new System.Drawing.Size(217, 22);
+            this.menuHelpAbout.Size = new System.Drawing.Size(343, 34);
             this.menuHelpAbout.Text = "ℹ️ Giới Thiệu";
             this.menuHelpAbout.Click += new System.EventHandler(this.menuHelpAbout_Click);
             // 
@@ -461,10 +470,10 @@ namespace BT_TNC_Dot_NET
             this.toolBtnPlay,
             this.toolBtnPause,
             this.toolBtnStop});
-            this.mainToolStrip.Location = new System.Drawing.Point(0, 99);
+            this.mainToolStrip.Location = new System.Drawing.Point(0, 148);
             this.mainToolStrip.Name = "mainToolStrip";
-            this.mainToolStrip.Padding = new System.Windows.Forms.Padding(12, 2, 12, 2);
-            this.mainToolStrip.Size = new System.Drawing.Size(1150, 27);
+            this.mainToolStrip.Padding = new System.Windows.Forms.Padding(18, 3, 18, 3);
+            this.mainToolStrip.Size = new System.Drawing.Size(1725, 40);
             this.mainToolStrip.TabIndex = 5;
             // 
             // toolBtnOpen
@@ -472,7 +481,7 @@ namespace BT_TNC_Dot_NET
             this.toolBtnOpen.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
             this.toolBtnOpen.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolBtnOpen.Name = "toolBtnOpen";
-            this.toolBtnOpen.Size = new System.Drawing.Size(89, 20);
+            this.toolBtnOpen.Size = new System.Drawing.Size(141, 29);
             this.toolBtnOpen.Text = "📄 Mở Văn Bản";
             this.toolBtnOpen.Click += new System.EventHandler(this.btnBrowseFile_Click);
             // 
@@ -481,14 +490,14 @@ namespace BT_TNC_Dot_NET
             this.toolBtnExport.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
             this.toolBtnExport.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolBtnExport.Name = "toolBtnExport";
-            this.toolBtnExport.Size = new System.Drawing.Size(78, 20);
+            this.toolBtnExport.Size = new System.Drawing.Size(125, 29);
             this.toolBtnExport.Text = "💾 Xuất WAV";
             this.toolBtnExport.Click += new System.EventHandler(this.btnExportAudioWav_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 23);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 34);
             // 
             // toolBtnPlay
             // 
@@ -496,7 +505,7 @@ namespace BT_TNC_Dot_NET
             this.toolBtnPlay.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(189)))), ((int)(((byte)(248)))));
             this.toolBtnPlay.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolBtnPlay.Name = "toolBtnPlay";
-            this.toolBtnPlay.Size = new System.Drawing.Size(74, 20);
+            this.toolBtnPlay.Size = new System.Drawing.Size(111, 29);
             this.toolBtnPlay.Text = "▶  Đọc (F5)";
             this.toolBtnPlay.Click += new System.EventHandler(this.btnPlayText_Click);
             // 
@@ -505,7 +514,7 @@ namespace BT_TNC_Dot_NET
             this.toolBtnPause.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(191)))), ((int)(((byte)(36)))));
             this.toolBtnPause.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolBtnPause.Name = "toolBtnPause";
-            this.toolBtnPause.Size = new System.Drawing.Size(82, 20);
+            this.toolBtnPause.Size = new System.Drawing.Size(130, 29);
             this.toolBtnPause.Text = "⏸ Tạm Dừng";
             this.toolBtnPause.Click += new System.EventHandler(this.btnPauseAudio_Click);
             // 
@@ -514,7 +523,7 @@ namespace BT_TNC_Dot_NET
             this.toolBtnStop.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(113)))), ((int)(((byte)(113)))));
             this.toolBtnStop.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolBtnStop.Name = "toolBtnStop";
-            this.toolBtnStop.Size = new System.Drawing.Size(55, 20);
+            this.toolBtnStop.Size = new System.Drawing.Size(91, 29);
             this.toolBtnStop.Text = "⏹ Dừng";
             this.toolBtnStop.Click += new System.EventHandler(this.btnStopAudio_Click);
             // 
@@ -528,16 +537,17 @@ namespace BT_TNC_Dot_NET
             this.lblStatusEngine,
             this.lblStatusVoice,
             this.lblStatusStats});
-            this.mainStatusStrip.Location = new System.Drawing.Point(0, 685);
+            this.mainStatusStrip.Location = new System.Drawing.Point(0, 1058);
             this.mainStatusStrip.Name = "mainStatusStrip";
-            this.mainStatusStrip.Size = new System.Drawing.Size(1150, 22);
+            this.mainStatusStrip.Padding = new System.Windows.Forms.Padding(2, 0, 21, 0);
+            this.mainStatusStrip.Size = new System.Drawing.Size(1725, 30);
             this.mainStatusStrip.TabIndex = 6;
             // 
             // lblStatusReady
             // 
             this.lblStatusReady.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(232)))), ((int)(((byte)(240)))));
             this.lblStatusReady.Name = "lblStatusReady";
-            this.lblStatusReady.Size = new System.Drawing.Size(758, 17);
+            this.lblStatusReady.Size = new System.Drawing.Size(1159, 23);
             this.lblStatusReady.Spring = true;
             this.lblStatusReady.Text = "⏹ Hệ thống sẵn sàng";
             this.lblStatusReady.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -546,21 +556,21 @@ namespace BT_TNC_Dot_NET
             // 
             this.lblStatusEngine.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(189)))), ((int)(((byte)(248)))));
             this.lblStatusEngine.Name = "lblStatusEngine";
-            this.lblStatusEngine.Size = new System.Drawing.Size(200, 17);
+            this.lblStatusEngine.Size = new System.Drawing.Size(287, 23);
             this.lblStatusEngine.Text = "Engine: VieNeu-TTS AI (48kHz Local)";
             // 
             // lblStatusVoice
             // 
             this.lblStatusVoice.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(216)))), ((int)(((byte)(180)))), ((int)(((byte)(254)))));
             this.lblStatusVoice.Name = "lblStatusVoice";
-            this.lblStatusVoice.Size = new System.Drawing.Size(106, 17);
+            this.lblStatusVoice.Size = new System.Drawing.Size(151, 23);
             this.lblStatusVoice.Text = "Giọng: vi_female_1";
             // 
             // lblStatusStats
             // 
             this.lblStatusStats.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(148)))), ((int)(((byte)(163)))), ((int)(((byte)(184)))));
             this.lblStatusStats.Name = "lblStatusStats";
-            this.lblStatusStats.Size = new System.Drawing.Size(71, 17);
+            this.lblStatusStats.Size = new System.Drawing.Size(105, 23);
             this.lblStatusStats.Text = "0 ký tự | 0 từ";
             // 
             // txtContextMenu
@@ -575,13 +585,13 @@ namespace BT_TNC_Dot_NET
             this.ctxClear,
             this.ctxSpeakSelected});
             this.txtContextMenu.Name = "txtContextMenu";
-            this.txtContextMenu.Size = new System.Drawing.Size(195, 114);
+            this.txtContextMenu.Size = new System.Drawing.Size(268, 164);
             // 
             // ctxCut
             // 
             this.ctxCut.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
             this.ctxCut.Name = "ctxCut";
-            this.ctxCut.Size = new System.Drawing.Size(194, 22);
+            this.ctxCut.Size = new System.Drawing.Size(267, 32);
             this.ctxCut.Text = "✂️ Cắt (Cut)";
             this.ctxCut.Click += new System.EventHandler(this.ctxCut_Click);
             // 
@@ -589,7 +599,7 @@ namespace BT_TNC_Dot_NET
             // 
             this.ctxCopy.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
             this.ctxCopy.Name = "ctxCopy";
-            this.ctxCopy.Size = new System.Drawing.Size(194, 22);
+            this.ctxCopy.Size = new System.Drawing.Size(267, 32);
             this.ctxCopy.Text = "📋 Sao Chép (Copy)";
             this.ctxCopy.Click += new System.EventHandler(this.ctxCopy_Click);
             // 
@@ -597,7 +607,7 @@ namespace BT_TNC_Dot_NET
             // 
             this.ctxPaste.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
             this.ctxPaste.Name = "ctxPaste";
-            this.ctxPaste.Size = new System.Drawing.Size(194, 22);
+            this.ctxPaste.Size = new System.Drawing.Size(267, 32);
             this.ctxPaste.Text = "📌 Dán (Paste)";
             this.ctxPaste.Click += new System.EventHandler(this.ctxPaste_Click);
             // 
@@ -605,7 +615,7 @@ namespace BT_TNC_Dot_NET
             // 
             this.ctxClear.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
             this.ctxClear.Name = "ctxClear";
-            this.ctxClear.Size = new System.Drawing.Size(194, 22);
+            this.ctxClear.Size = new System.Drawing.Size(267, 32);
             this.ctxClear.Text = "🗑️ Xóa Toàn Bộ";
             this.ctxClear.Click += new System.EventHandler(this.btnClearInputText_Click);
             // 
@@ -614,7 +624,7 @@ namespace BT_TNC_Dot_NET
             this.ctxSpeakSelected.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
             this.ctxSpeakSelected.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(189)))), ((int)(((byte)(248)))));
             this.ctxSpeakSelected.Name = "ctxSpeakSelected";
-            this.ctxSpeakSelected.Size = new System.Drawing.Size(194, 22);
+            this.ctxSpeakSelected.Size = new System.Drawing.Size(267, 32);
             this.ctxSpeakSelected.Text = "▶  Đọc Đoạn Đã Chọn";
             this.ctxSpeakSelected.Click += new System.EventHandler(this.ctxSpeakSelected_Click);
             // 
@@ -626,10 +636,11 @@ namespace BT_TNC_Dot_NET
             this.pnlLeftControlSidebar.Controls.Add(this.cardVoiceCloning);
             this.pnlLeftControlSidebar.Controls.Add(this.cardVoiceSelection);
             this.pnlLeftControlSidebar.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pnlLeftControlSidebar.Location = new System.Drawing.Point(0, 126);
+            this.pnlLeftControlSidebar.Location = new System.Drawing.Point(0, 188);
+            this.pnlLeftControlSidebar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pnlLeftControlSidebar.Name = "pnlLeftControlSidebar";
-            this.pnlLeftControlSidebar.Padding = new System.Windows.Forms.Padding(12, 12, 12, 12);
-            this.pnlLeftControlSidebar.Size = new System.Drawing.Size(333, 559);
+            this.pnlLeftControlSidebar.Padding = new System.Windows.Forms.Padding(18, 18, 18, 18);
+            this.pnlLeftControlSidebar.Size = new System.Drawing.Size(500, 870);
             this.pnlLeftControlSidebar.TabIndex = 1;
             // 
             // cardFileActions
@@ -642,10 +653,11 @@ namespace BT_TNC_Dot_NET
             this.cardFileActions.Dock = System.Windows.Forms.DockStyle.Top;
             this.cardFileActions.GradientBottomColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(34)))));
             this.cardFileActions.GradientTopColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(44)))));
-            this.cardFileActions.Location = new System.Drawing.Point(12, 877);
+            this.cardFileActions.Location = new System.Drawing.Point(18, 1348);
+            this.cardFileActions.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cardFileActions.Name = "cardFileActions";
-            this.cardFileActions.Padding = new System.Windows.Forms.Padding(10, 10, 10, 10);
-            this.cardFileActions.Size = new System.Drawing.Size(292, 114);
+            this.cardFileActions.Padding = new System.Windows.Forms.Padding(15, 15, 15, 15);
+            this.cardFileActions.Size = new System.Drawing.Size(438, 175);
             this.cardFileActions.TabIndex = 3;
             // 
             // lblFileSectionTitle
@@ -653,9 +665,10 @@ namespace BT_TNC_Dot_NET
             this.lblFileSectionTitle.AutoSize = true;
             this.lblFileSectionTitle.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
             this.lblFileSectionTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(232)))), ((int)(((byte)(240)))));
-            this.lblFileSectionTitle.Location = new System.Drawing.Point(10, 8);
+            this.lblFileSectionTitle.Location = new System.Drawing.Point(15, 12);
+            this.lblFileSectionTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblFileSectionTitle.Name = "lblFileSectionTitle";
-            this.lblFileSectionTitle.Size = new System.Drawing.Size(119, 15);
+            this.lblFileSectionTitle.Size = new System.Drawing.Size(196, 25);
             this.lblFileSectionTitle.TabIndex = 0;
             this.lblFileSectionTitle.Text = "📁 Công Cụ & Xuất File";
             this.lblFileSectionTitle.Click += new System.EventHandler(this.lblFileSectionTitle_Click);
@@ -673,9 +686,10 @@ namespace BT_TNC_Dot_NET
             this.btnExportAudioWav.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
             this.btnExportAudioWav.ForeColor = System.Drawing.Color.White;
             this.btnExportAudioWav.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(185)))), ((int)(((byte)(129)))));
-            this.btnExportAudioWav.Location = new System.Drawing.Point(10, 70);
+            this.btnExportAudioWav.Location = new System.Drawing.Point(15, 108);
+            this.btnExportAudioWav.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnExportAudioWav.Name = "btnExportAudioWav";
-            this.btnExportAudioWav.Size = new System.Drawing.Size(274, 36);
+            this.btnExportAudioWav.Size = new System.Drawing.Size(411, 55);
             this.btnExportAudioWav.TabIndex = 2;
             this.btnExportAudioWav.Text = "💾 Xuất File Âm Thanh (.wav)";
             this.btnExportAudioWav.UseVisualStyleBackColor = false;
@@ -694,9 +708,10 @@ namespace BT_TNC_Dot_NET
             this.btnBrowseFile.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
             this.btnBrowseFile.ForeColor = System.Drawing.Color.White;
             this.btnBrowseFile.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(182)))), ((int)(((byte)(212)))));
-            this.btnBrowseFile.Location = new System.Drawing.Point(10, 28);
+            this.btnBrowseFile.Location = new System.Drawing.Point(15, 43);
+            this.btnBrowseFile.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnBrowseFile.Name = "btnBrowseFile";
-            this.btnBrowseFile.Size = new System.Drawing.Size(274, 36);
+            this.btnBrowseFile.Size = new System.Drawing.Size(411, 55);
             this.btnBrowseFile.TabIndex = 1;
             this.btnBrowseFile.Text = "📄 Mở File Văn Bản (.txt)";
             this.btnBrowseFile.UseVisualStyleBackColor = false;
@@ -721,10 +736,11 @@ namespace BT_TNC_Dot_NET
             this.cardAudioSettings.Dock = System.Windows.Forms.DockStyle.Top;
             this.cardAudioSettings.GradientBottomColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(34)))));
             this.cardAudioSettings.GradientTopColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(44)))));
-            this.cardAudioSettings.Location = new System.Drawing.Point(12, 542);
+            this.cardAudioSettings.Location = new System.Drawing.Point(18, 833);
+            this.cardAudioSettings.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cardAudioSettings.Name = "cardAudioSettings";
-            this.cardAudioSettings.Padding = new System.Windows.Forms.Padding(10, 10, 10, 10);
-            this.cardAudioSettings.Size = new System.Drawing.Size(292, 335);
+            this.cardAudioSettings.Padding = new System.Windows.Forms.Padding(15, 15, 15, 15);
+            this.cardAudioSettings.Size = new System.Drawing.Size(438, 515);
             this.cardAudioSettings.TabIndex = 2;
             // 
             // lblAudioSectionTitle
@@ -732,9 +748,10 @@ namespace BT_TNC_Dot_NET
             this.lblAudioSectionTitle.AutoSize = true;
             this.lblAudioSectionTitle.Font = new System.Drawing.Font("Segoe UI Semibold", 9.5F, System.Drawing.FontStyle.Bold);
             this.lblAudioSectionTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(232)))), ((int)(((byte)(240)))));
-            this.lblAudioSectionTitle.Location = new System.Drawing.Point(10, 8);
+            this.lblAudioSectionTitle.Location = new System.Drawing.Point(15, 12);
+            this.lblAudioSectionTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblAudioSectionTitle.Name = "lblAudioSectionTitle";
-            this.lblAudioSectionTitle.Size = new System.Drawing.Size(207, 17);
+            this.lblAudioSectionTitle.Size = new System.Drawing.Size(287, 25);
             this.lblAudioSectionTitle.TabIndex = 0;
             this.lblAudioSectionTitle.Text = "🎛️ Tùy Chỉnh Âm Thanh Chi Tiết";
             // 
@@ -743,9 +760,10 @@ namespace BT_TNC_Dot_NET
             this.lblSpeedRateText.AutoSize = true;
             this.lblSpeedRateText.Font = new System.Drawing.Font("Segoe UI", 8.5F);
             this.lblSpeedRateText.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
-            this.lblSpeedRateText.Location = new System.Drawing.Point(10, 30);
+            this.lblSpeedRateText.Location = new System.Drawing.Point(15, 46);
+            this.lblSpeedRateText.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSpeedRateText.Name = "lblSpeedRateText";
-            this.lblSpeedRateText.Size = new System.Drawing.Size(105, 15);
+            this.lblSpeedRateText.Size = new System.Drawing.Size(156, 23);
             this.lblSpeedRateText.TabIndex = 1;
             this.lblSpeedRateText.Text = "⚡ Tốc độ (Speed):";
             // 
@@ -753,9 +771,10 @@ namespace BT_TNC_Dot_NET
             // 
             this.lblSpeedRateValue.Font = new System.Drawing.Font("Segoe UI", 8.5F, System.Drawing.FontStyle.Bold);
             this.lblSpeedRateValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(120)))), ((int)(((byte)(212)))));
-            this.lblSpeedRateValue.Location = new System.Drawing.Point(210, 30);
+            this.lblSpeedRateValue.Location = new System.Drawing.Point(315, 46);
+            this.lblSpeedRateValue.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSpeedRateValue.Name = "lblSpeedRateValue";
-            this.lblSpeedRateValue.Size = new System.Drawing.Size(70, 15);
+            this.lblSpeedRateValue.Size = new System.Drawing.Size(105, 23);
             this.lblSpeedRateValue.TabIndex = 2;
             this.lblSpeedRateValue.Text = "+0.0";
             this.lblSpeedRateValue.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -764,10 +783,11 @@ namespace BT_TNC_Dot_NET
             // 
             this.trkSpeedRate.BackColor = System.Drawing.Color.Transparent;
             this.trkSpeedRate.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.trkSpeedRate.Location = new System.Drawing.Point(10, 48);
+            this.trkSpeedRate.Location = new System.Drawing.Point(15, 74);
+            this.trkSpeedRate.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.trkSpeedRate.Name = "trkSpeedRate";
             this.trkSpeedRate.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(120)))), ((int)(((byte)(212)))));
-            this.trkSpeedRate.Size = new System.Drawing.Size(274, 26);
+            this.trkSpeedRate.Size = new System.Drawing.Size(411, 40);
             this.trkSpeedRate.TabIndex = 3;
             this.trkSpeedRate.ThumbColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
             this.trkSpeedRate.ThumbHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(243)))), ((int)(((byte)(252)))));
@@ -780,9 +800,10 @@ namespace BT_TNC_Dot_NET
             this.lblPitchRateText.AutoSize = true;
             this.lblPitchRateText.Font = new System.Drawing.Font("Segoe UI", 8.5F);
             this.lblPitchRateText.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
-            this.lblPitchRateText.Location = new System.Drawing.Point(10, 88);
+            this.lblPitchRateText.Location = new System.Drawing.Point(15, 135);
+            this.lblPitchRateText.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPitchRateText.Name = "lblPitchRateText";
-            this.lblPitchRateText.Size = new System.Drawing.Size(101, 15);
+            this.lblPitchRateText.Size = new System.Drawing.Size(150, 23);
             this.lblPitchRateText.TabIndex = 4;
             this.lblPitchRateText.Text = "🎵 Cao độ (Pitch):";
             // 
@@ -790,9 +811,10 @@ namespace BT_TNC_Dot_NET
             // 
             this.lblPitchRateValue.Font = new System.Drawing.Font("Segoe UI", 8.5F, System.Drawing.FontStyle.Bold);
             this.lblPitchRateValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(100)))), ((int)(((byte)(255)))));
-            this.lblPitchRateValue.Location = new System.Drawing.Point(210, 88);
+            this.lblPitchRateValue.Location = new System.Drawing.Point(315, 135);
+            this.lblPitchRateValue.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPitchRateValue.Name = "lblPitchRateValue";
-            this.lblPitchRateValue.Size = new System.Drawing.Size(70, 15);
+            this.lblPitchRateValue.Size = new System.Drawing.Size(105, 23);
             this.lblPitchRateValue.TabIndex = 5;
             this.lblPitchRateValue.Text = "0.0";
             this.lblPitchRateValue.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -801,10 +823,11 @@ namespace BT_TNC_Dot_NET
             // 
             this.trkPitchRate.BackColor = System.Drawing.Color.Transparent;
             this.trkPitchRate.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.trkPitchRate.Location = new System.Drawing.Point(10, 106);
+            this.trkPitchRate.Location = new System.Drawing.Point(15, 163);
+            this.trkPitchRate.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.trkPitchRate.Name = "trkPitchRate";
             this.trkPitchRate.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(100)))), ((int)(((byte)(255)))));
-            this.trkPitchRate.Size = new System.Drawing.Size(274, 26);
+            this.trkPitchRate.Size = new System.Drawing.Size(411, 40);
             this.trkPitchRate.TabIndex = 6;
             this.trkPitchRate.ThumbColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
             this.trkPitchRate.ThumbHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(207)))), ((int)(((byte)(232)))));
@@ -817,9 +840,10 @@ namespace BT_TNC_Dot_NET
             this.lblVolumeLevelText.AutoSize = true;
             this.lblVolumeLevelText.Font = new System.Drawing.Font("Segoe UI", 8.5F);
             this.lblVolumeLevelText.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
-            this.lblVolumeLevelText.Location = new System.Drawing.Point(10, 146);
+            this.lblVolumeLevelText.Location = new System.Drawing.Point(15, 225);
+            this.lblVolumeLevelText.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblVolumeLevelText.Name = "lblVolumeLevelText";
-            this.lblVolumeLevelText.Size = new System.Drawing.Size(129, 15);
+            this.lblVolumeLevelText.Size = new System.Drawing.Size(190, 23);
             this.lblVolumeLevelText.TabIndex = 7;
             this.lblVolumeLevelText.Text = "🔊 Âm lượng (Volume):";
             // 
@@ -827,9 +851,10 @@ namespace BT_TNC_Dot_NET
             // 
             this.lblVolumeLevelValue.Font = new System.Drawing.Font("Segoe UI", 8.5F, System.Drawing.FontStyle.Bold);
             this.lblVolumeLevelValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(120)))), ((int)(((byte)(212)))));
-            this.lblVolumeLevelValue.Location = new System.Drawing.Point(210, 146);
+            this.lblVolumeLevelValue.Location = new System.Drawing.Point(315, 225);
+            this.lblVolumeLevelValue.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblVolumeLevelValue.Name = "lblVolumeLevelValue";
-            this.lblVolumeLevelValue.Size = new System.Drawing.Size(70, 15);
+            this.lblVolumeLevelValue.Size = new System.Drawing.Size(105, 23);
             this.lblVolumeLevelValue.TabIndex = 8;
             this.lblVolumeLevelValue.Text = "100%";
             this.lblVolumeLevelValue.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -839,12 +864,13 @@ namespace BT_TNC_Dot_NET
             this.trkVolumeLevel.BackColor = System.Drawing.Color.Transparent;
             this.trkVolumeLevel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.trkVolumeLevel.LargeChange = 10;
-            this.trkVolumeLevel.Location = new System.Drawing.Point(10, 164);
+            this.trkVolumeLevel.Location = new System.Drawing.Point(15, 252);
+            this.trkVolumeLevel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.trkVolumeLevel.Maximum = 100;
             this.trkVolumeLevel.Minimum = 0;
             this.trkVolumeLevel.Name = "trkVolumeLevel";
             this.trkVolumeLevel.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(120)))), ((int)(((byte)(212)))));
-            this.trkVolumeLevel.Size = new System.Drawing.Size(274, 26);
+            this.trkVolumeLevel.Size = new System.Drawing.Size(411, 40);
             this.trkVolumeLevel.TabIndex = 9;
             this.trkVolumeLevel.ThumbColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
             this.trkVolumeLevel.ThumbHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(210)))), ((int)(((byte)(254)))));
@@ -857,18 +883,20 @@ namespace BT_TNC_Dot_NET
             this.lblGraphicEqTitle.AutoSize = true;
             this.lblGraphicEqTitle.Font = new System.Drawing.Font("Segoe UI Semibold", 8.5F, System.Drawing.FontStyle.Bold);
             this.lblGraphicEqTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(189)))), ((int)(((byte)(248)))));
-            this.lblGraphicEqTitle.Location = new System.Drawing.Point(10, 196);
+            this.lblGraphicEqTitle.Location = new System.Drawing.Point(15, 302);
+            this.lblGraphicEqTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblGraphicEqTitle.Name = "lblGraphicEqTitle";
-            this.lblGraphicEqTitle.Size = new System.Drawing.Size(244, 15);
+            this.lblGraphicEqTitle.Size = new System.Drawing.Size(356, 23);
             this.lblGraphicEqTitle.TabIndex = 10;
             this.lblGraphicEqTitle.Text = "🎛️ 10-Band Graphic Equalizer (31Hz - 16kHz)";
             // 
             // graphicEqControl
             // 
             this.graphicEqControl.BackColor = System.Drawing.Color.Transparent;
-            this.graphicEqControl.Location = new System.Drawing.Point(10, 214);
+            this.graphicEqControl.Location = new System.Drawing.Point(15, 329);
+            this.graphicEqControl.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.graphicEqControl.Name = "graphicEqControl";
-            this.graphicEqControl.Size = new System.Drawing.Size(274, 115);
+            this.graphicEqControl.Size = new System.Drawing.Size(411, 177);
             this.graphicEqControl.TabIndex = 11;
             this.graphicEqControl.Load += new System.EventHandler(this.graphicEqControl_Load);
             // 
@@ -883,10 +911,11 @@ namespace BT_TNC_Dot_NET
             this.cardVoiceCloning.Dock = System.Windows.Forms.DockStyle.Top;
             this.cardVoiceCloning.GradientBottomColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(34)))));
             this.cardVoiceCloning.GradientTopColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(44)))));
-            this.cardVoiceCloning.Location = new System.Drawing.Point(12, 432);
+            this.cardVoiceCloning.Location = new System.Drawing.Point(18, 664);
+            this.cardVoiceCloning.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cardVoiceCloning.Name = "cardVoiceCloning";
-            this.cardVoiceCloning.Padding = new System.Windows.Forms.Padding(10, 10, 10, 10);
-            this.cardVoiceCloning.Size = new System.Drawing.Size(292, 110);
+            this.cardVoiceCloning.Padding = new System.Windows.Forms.Padding(15, 15, 15, 15);
+            this.cardVoiceCloning.Size = new System.Drawing.Size(438, 169);
             this.cardVoiceCloning.TabIndex = 1;
             // 
             // lblCloneSectionTitle
@@ -894,9 +923,10 @@ namespace BT_TNC_Dot_NET
             this.lblCloneSectionTitle.AutoSize = true;
             this.lblCloneSectionTitle.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
             this.lblCloneSectionTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(216)))), ((int)(((byte)(180)))), ((int)(((byte)(254)))));
-            this.lblCloneSectionTitle.Location = new System.Drawing.Point(10, 8);
+            this.lblCloneSectionTitle.Location = new System.Drawing.Point(15, 12);
+            this.lblCloneSectionTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCloneSectionTitle.Name = "lblCloneSectionTitle";
-            this.lblCloneSectionTitle.Size = new System.Drawing.Size(159, 15);
+            this.lblCloneSectionTitle.Size = new System.Drawing.Size(255, 25);
             this.lblCloneSectionTitle.TabIndex = 0;
             this.lblCloneSectionTitle.Text = "🧬 Voice Cloning (Nhân Bản)";
             // 
@@ -905,9 +935,10 @@ namespace BT_TNC_Dot_NET
             this.chkEnableVoiceCloning.AutoSize = true;
             this.chkEnableVoiceCloning.Font = new System.Drawing.Font("Segoe UI Semibold", 8.5F);
             this.chkEnableVoiceCloning.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
-            this.chkEnableVoiceCloning.Location = new System.Drawing.Point(10, 28);
+            this.chkEnableVoiceCloning.Location = new System.Drawing.Point(15, 43);
+            this.chkEnableVoiceCloning.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.chkEnableVoiceCloning.Name = "chkEnableVoiceCloning";
-            this.chkEnableVoiceCloning.Size = new System.Drawing.Size(186, 19);
+            this.chkEnableVoiceCloning.Size = new System.Drawing.Size(272, 27);
             this.chkEnableVoiceCloning.TabIndex = 1;
             this.chkEnableVoiceCloning.Text = "Bật Chế Độ Clone Giọng Riêng";
             this.chkEnableVoiceCloning.UseVisualStyleBackColor = true;
@@ -926,9 +957,10 @@ namespace BT_TNC_Dot_NET
             this.btnSelectCloneAudio.Font = new System.Drawing.Font("Segoe UI Semibold", 8.5F, System.Drawing.FontStyle.Bold);
             this.btnSelectCloneAudio.ForeColor = System.Drawing.Color.White;
             this.btnSelectCloneAudio.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(51)))), ((int)(((byte)(234)))));
-            this.btnSelectCloneAudio.Location = new System.Drawing.Point(10, 50);
+            this.btnSelectCloneAudio.Location = new System.Drawing.Point(15, 77);
+            this.btnSelectCloneAudio.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnSelectCloneAudio.Name = "btnSelectCloneAudio";
-            this.btnSelectCloneAudio.Size = new System.Drawing.Size(274, 32);
+            this.btnSelectCloneAudio.Size = new System.Drawing.Size(411, 49);
             this.btnSelectCloneAudio.TabIndex = 2;
             this.btnSelectCloneAudio.Text = "🎙️ Nạp Mẫu Giọng (.wav / .mp3)";
             this.btnSelectCloneAudio.UseVisualStyleBackColor = false;
@@ -938,9 +970,10 @@ namespace BT_TNC_Dot_NET
             // 
             this.lblCloneAudioStatus.Font = new System.Drawing.Font("Segoe UI", 7.8F);
             this.lblCloneAudioStatus.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(216)))), ((int)(((byte)(180)))), ((int)(((byte)(254)))));
-            this.lblCloneAudioStatus.Location = new System.Drawing.Point(10, 86);
+            this.lblCloneAudioStatus.Location = new System.Drawing.Point(15, 132);
+            this.lblCloneAudioStatus.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCloneAudioStatus.Name = "lblCloneAudioStatus";
-            this.lblCloneAudioStatus.Size = new System.Drawing.Size(274, 18);
+            this.lblCloneAudioStatus.Size = new System.Drawing.Size(411, 28);
             this.lblCloneAudioStatus.TabIndex = 3;
             this.lblCloneAudioStatus.Text = "Chưa chọn file mẫu giọng";
             // 
@@ -964,10 +997,11 @@ namespace BT_TNC_Dot_NET
             this.cardVoiceSelection.Dock = System.Windows.Forms.DockStyle.Top;
             this.cardVoiceSelection.GradientBottomColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(34)))));
             this.cardVoiceSelection.GradientTopColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(44)))));
-            this.cardVoiceSelection.Location = new System.Drawing.Point(12, 12);
+            this.cardVoiceSelection.Location = new System.Drawing.Point(18, 18);
+            this.cardVoiceSelection.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cardVoiceSelection.Name = "cardVoiceSelection";
-            this.cardVoiceSelection.Padding = new System.Windows.Forms.Padding(10, 10, 10, 10);
-            this.cardVoiceSelection.Size = new System.Drawing.Size(292, 420);
+            this.cardVoiceSelection.Padding = new System.Windows.Forms.Padding(15, 15, 15, 15);
+            this.cardVoiceSelection.Size = new System.Drawing.Size(438, 646);
             this.cardVoiceSelection.TabIndex = 0;
             // 
             // lblEngineTitle
@@ -975,9 +1009,10 @@ namespace BT_TNC_Dot_NET
             this.lblEngineTitle.AutoSize = true;
             this.lblEngineTitle.Font = new System.Drawing.Font("Segoe UI Semibold", 8.5F, System.Drawing.FontStyle.Bold);
             this.lblEngineTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(185)))), ((int)(((byte)(200)))));
-            this.lblEngineTitle.Location = new System.Drawing.Point(10, 8);
+            this.lblEngineTitle.Location = new System.Drawing.Point(15, 12);
+            this.lblEngineTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblEngineTitle.Name = "lblEngineTitle";
-            this.lblEngineTitle.Size = new System.Drawing.Size(117, 15);
+            this.lblEngineTitle.Size = new System.Drawing.Size(173, 23);
             this.lblEngineTitle.TabIndex = 0;
             this.lblEngineTitle.Text = "⚙️ Chọn TTS Engine:";
             // 
@@ -985,9 +1020,10 @@ namespace BT_TNC_Dot_NET
             // 
             this.pnlEngineSegment.Controls.Add(this.btnEngineVieNeu);
             this.pnlEngineSegment.Controls.Add(this.btnEngineSapi);
-            this.pnlEngineSegment.Location = new System.Drawing.Point(10, 24);
+            this.pnlEngineSegment.Location = new System.Drawing.Point(15, 37);
+            this.pnlEngineSegment.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pnlEngineSegment.Name = "pnlEngineSegment";
-            this.pnlEngineSegment.Size = new System.Drawing.Size(274, 28);
+            this.pnlEngineSegment.Size = new System.Drawing.Size(411, 43);
             this.pnlEngineSegment.TabIndex = 1;
             this.pnlEngineSegment.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlEngineSegment_Paint);
             // 
@@ -1005,9 +1041,9 @@ namespace BT_TNC_Dot_NET
             this.btnEngineVieNeu.ForeColor = System.Drawing.Color.White;
             this.btnEngineVieNeu.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(182)))), ((int)(((byte)(212)))));
             this.btnEngineVieNeu.Location = new System.Drawing.Point(0, 0);
-            this.btnEngineVieNeu.Margin = new System.Windows.Forms.Padding(0, 0, 4, 0);
+            this.btnEngineVieNeu.Margin = new System.Windows.Forms.Padding(0, 0, 6, 0);
             this.btnEngineVieNeu.Name = "btnEngineVieNeu";
-            this.btnEngineVieNeu.Size = new System.Drawing.Size(132, 26);
+            this.btnEngineVieNeu.Size = new System.Drawing.Size(198, 40);
             this.btnEngineVieNeu.TabIndex = 0;
             this.btnEngineVieNeu.Text = "🦜 VieNeu AI (48k)";
             this.btnEngineVieNeu.UseVisualStyleBackColor = false;
@@ -1026,10 +1062,10 @@ namespace BT_TNC_Dot_NET
             this.btnEngineSapi.Font = new System.Drawing.Font("Segoe UI Semibold", 8F, System.Drawing.FontStyle.Bold);
             this.btnEngineSapi.ForeColor = System.Drawing.Color.White;
             this.btnEngineSapi.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(65)))), ((int)(((byte)(85)))));
-            this.btnEngineSapi.Location = new System.Drawing.Point(136, 0);
+            this.btnEngineSapi.Location = new System.Drawing.Point(204, 0);
             this.btnEngineSapi.Margin = new System.Windows.Forms.Padding(0);
             this.btnEngineSapi.Name = "btnEngineSapi";
-            this.btnEngineSapi.Size = new System.Drawing.Size(132, 26);
+            this.btnEngineSapi.Size = new System.Drawing.Size(198, 40);
             this.btnEngineSapi.TabIndex = 1;
             this.btnEngineSapi.Text = "🔊 Windows SAPI5";
             this.btnEngineSapi.UseVisualStyleBackColor = false;
@@ -1040,9 +1076,10 @@ namespace BT_TNC_Dot_NET
             this.lblVoiceSectionTitle.AutoSize = true;
             this.lblVoiceSectionTitle.Font = new System.Drawing.Font("Segoe UI Semibold", 8.5F, System.Drawing.FontStyle.Bold);
             this.lblVoiceSectionTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(232)))), ((int)(((byte)(240)))));
-            this.lblVoiceSectionTitle.Location = new System.Drawing.Point(10, 56);
+            this.lblVoiceSectionTitle.Location = new System.Drawing.Point(15, 86);
+            this.lblVoiceSectionTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblVoiceSectionTitle.Name = "lblVoiceSectionTitle";
-            this.lblVoiceSectionTitle.Size = new System.Drawing.Size(114, 15);
+            this.lblVoiceSectionTitle.Size = new System.Drawing.Size(170, 23);
             this.lblVoiceSectionTitle.TabIndex = 2;
             this.lblVoiceSectionTitle.Text = "🗣️ Chọn Giọng Đọc:";
             // 
@@ -1054,9 +1091,10 @@ namespace BT_TNC_Dot_NET
             this.cboVoiceSelection.Font = new System.Drawing.Font("Segoe UI", 8.5F);
             this.cboVoiceSelection.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
             this.cboVoiceSelection.FormattingEnabled = true;
-            this.cboVoiceSelection.Location = new System.Drawing.Point(10, 72);
+            this.cboVoiceSelection.Location = new System.Drawing.Point(15, 111);
+            this.cboVoiceSelection.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cboVoiceSelection.Name = "cboVoiceSelection";
-            this.cboVoiceSelection.Size = new System.Drawing.Size(274, 21);
+            this.cboVoiceSelection.Size = new System.Drawing.Size(409, 31);
             this.cboVoiceSelection.TabIndex = 3;
             this.cboVoiceSelection.SelectedIndexChanged += new System.EventHandler(this.cboVoiceSelection_SelectedIndexChanged);
             // 
@@ -1065,9 +1103,10 @@ namespace BT_TNC_Dot_NET
             this.lblTimbreTitle.AutoSize = true;
             this.lblTimbreTitle.Font = new System.Drawing.Font("Segoe UI Semibold", 8F);
             this.lblTimbreTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
-            this.lblTimbreTitle.Location = new System.Drawing.Point(10, 96);
+            this.lblTimbreTitle.Location = new System.Drawing.Point(15, 148);
+            this.lblTimbreTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTimbreTitle.Name = "lblTimbreTitle";
-            this.lblTimbreTitle.Size = new System.Drawing.Size(117, 13);
+            this.lblTimbreTitle.Size = new System.Drawing.Size(171, 21);
             this.lblTimbreTitle.TabIndex = 4;
             this.lblTimbreTitle.Text = "🎙️ Sắc Độ & Âm Giọng:";
             // 
@@ -1078,9 +1117,10 @@ namespace BT_TNC_Dot_NET
             this.pnlTimbreSegment.Controls.Add(this.btnTimbreWarm);
             this.pnlTimbreSegment.Controls.Add(this.btnTimbreBright);
             this.pnlTimbreSegment.Controls.Add(this.btnTimbreReverb);
-            this.pnlTimbreSegment.Location = new System.Drawing.Point(10, 111);
+            this.pnlTimbreSegment.Location = new System.Drawing.Point(15, 171);
+            this.pnlTimbreSegment.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pnlTimbreSegment.Name = "pnlTimbreSegment";
-            this.pnlTimbreSegment.Size = new System.Drawing.Size(274, 52);
+            this.pnlTimbreSegment.Size = new System.Drawing.Size(411, 80);
             this.pnlTimbreSegment.TabIndex = 5;
             // 
             // btnTimbreStandard
@@ -1097,9 +1137,9 @@ namespace BT_TNC_Dot_NET
             this.btnTimbreStandard.ForeColor = System.Drawing.Color.White;
             this.btnTimbreStandard.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(102)))), ((int)(((byte)(241)))));
             this.btnTimbreStandard.Location = new System.Drawing.Point(0, 0);
-            this.btnTimbreStandard.Margin = new System.Windows.Forms.Padding(0, 0, 4, 4);
+            this.btnTimbreStandard.Margin = new System.Windows.Forms.Padding(0, 0, 6, 6);
             this.btnTimbreStandard.Name = "btnTimbreStandard";
-            this.btnTimbreStandard.Size = new System.Drawing.Size(86, 22);
+            this.btnTimbreStandard.Size = new System.Drawing.Size(129, 34);
             this.btnTimbreStandard.TabIndex = 0;
             this.btnTimbreStandard.Text = "🎙️ Mộc";
             this.btnTimbreStandard.UseVisualStyleBackColor = false;
@@ -1118,10 +1158,10 @@ namespace BT_TNC_Dot_NET
             this.btnTimbreRadio.Font = new System.Drawing.Font("Segoe UI", 7.5F);
             this.btnTimbreRadio.ForeColor = System.Drawing.Color.White;
             this.btnTimbreRadio.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(102)))), ((int)(((byte)(241)))));
-            this.btnTimbreRadio.Location = new System.Drawing.Point(90, 0);
-            this.btnTimbreRadio.Margin = new System.Windows.Forms.Padding(0, 0, 4, 4);
+            this.btnTimbreRadio.Location = new System.Drawing.Point(135, 0);
+            this.btnTimbreRadio.Margin = new System.Windows.Forms.Padding(0, 0, 6, 6);
             this.btnTimbreRadio.Name = "btnTimbreRadio";
-            this.btnTimbreRadio.Size = new System.Drawing.Size(86, 22);
+            this.btnTimbreRadio.Size = new System.Drawing.Size(129, 34);
             this.btnTimbreRadio.TabIndex = 1;
             this.btnTimbreRadio.Text = "📻 Radio";
             this.btnTimbreRadio.UseVisualStyleBackColor = false;
@@ -1140,10 +1180,10 @@ namespace BT_TNC_Dot_NET
             this.btnTimbreWarm.Font = new System.Drawing.Font("Segoe UI", 7.5F);
             this.btnTimbreWarm.ForeColor = System.Drawing.Color.White;
             this.btnTimbreWarm.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(102)))), ((int)(((byte)(241)))));
-            this.btnTimbreWarm.Location = new System.Drawing.Point(180, 0);
-            this.btnTimbreWarm.Margin = new System.Windows.Forms.Padding(0, 0, 0, 4);
+            this.btnTimbreWarm.Location = new System.Drawing.Point(270, 0);
+            this.btnTimbreWarm.Margin = new System.Windows.Forms.Padding(0, 0, 0, 6);
             this.btnTimbreWarm.Name = "btnTimbreWarm";
-            this.btnTimbreWarm.Size = new System.Drawing.Size(90, 22);
+            this.btnTimbreWarm.Size = new System.Drawing.Size(135, 34);
             this.btnTimbreWarm.TabIndex = 2;
             this.btnTimbreWarm.Text = "🔊 Warm Bass";
             this.btnTimbreWarm.UseVisualStyleBackColor = false;
@@ -1162,10 +1202,10 @@ namespace BT_TNC_Dot_NET
             this.btnTimbreBright.Font = new System.Drawing.Font("Segoe UI", 7.5F);
             this.btnTimbreBright.ForeColor = System.Drawing.Color.White;
             this.btnTimbreBright.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(102)))), ((int)(((byte)(241)))));
-            this.btnTimbreBright.Location = new System.Drawing.Point(0, 26);
-            this.btnTimbreBright.Margin = new System.Windows.Forms.Padding(0, 0, 4, 0);
+            this.btnTimbreBright.Location = new System.Drawing.Point(0, 40);
+            this.btnTimbreBright.Margin = new System.Windows.Forms.Padding(0, 0, 6, 0);
             this.btnTimbreBright.Name = "btnTimbreBright";
-            this.btnTimbreBright.Size = new System.Drawing.Size(132, 22);
+            this.btnTimbreBright.Size = new System.Drawing.Size(198, 34);
             this.btnTimbreBright.TabIndex = 3;
             this.btnTimbreBright.Text = "✨ Bright Clarity";
             this.btnTimbreBright.UseVisualStyleBackColor = false;
@@ -1184,10 +1224,10 @@ namespace BT_TNC_Dot_NET
             this.btnTimbreReverb.Font = new System.Drawing.Font("Segoe UI", 7.5F);
             this.btnTimbreReverb.ForeColor = System.Drawing.Color.White;
             this.btnTimbreReverb.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(102)))), ((int)(((byte)(241)))));
-            this.btnTimbreReverb.Location = new System.Drawing.Point(136, 26);
+            this.btnTimbreReverb.Location = new System.Drawing.Point(204, 40);
             this.btnTimbreReverb.Margin = new System.Windows.Forms.Padding(0);
             this.btnTimbreReverb.Name = "btnTimbreReverb";
-            this.btnTimbreReverb.Size = new System.Drawing.Size(134, 22);
+            this.btnTimbreReverb.Size = new System.Drawing.Size(201, 34);
             this.btnTimbreReverb.TabIndex = 4;
             this.btnTimbreReverb.Text = "🏛️ Studio Hall";
             this.btnTimbreReverb.UseVisualStyleBackColor = false;
@@ -1198,9 +1238,10 @@ namespace BT_TNC_Dot_NET
             this.lblDurationTitle.AutoSize = true;
             this.lblDurationTitle.Font = new System.Drawing.Font("Segoe UI Semibold", 8F);
             this.lblDurationTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
-            this.lblDurationTitle.Location = new System.Drawing.Point(10, 168);
+            this.lblDurationTitle.Location = new System.Drawing.Point(15, 258);
+            this.lblDurationTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDurationTitle.Name = "lblDurationTitle";
-            this.lblDurationTitle.Size = new System.Drawing.Size(159, 13);
+            this.lblDurationTitle.Size = new System.Drawing.Size(232, 21);
             this.lblDurationTitle.TabIndex = 6;
             this.lblDurationTitle.Text = "⏱️ Trường Độ & Nhịp Ngắt Câu:";
             // 
@@ -1209,9 +1250,10 @@ namespace BT_TNC_Dot_NET
             this.pnlDurationSegment.Controls.Add(this.btnDurationStandard);
             this.pnlDurationSegment.Controls.Add(this.btnDurationShort);
             this.pnlDurationSegment.Controls.Add(this.btnDurationLong);
-            this.pnlDurationSegment.Location = new System.Drawing.Point(10, 183);
+            this.pnlDurationSegment.Location = new System.Drawing.Point(15, 282);
+            this.pnlDurationSegment.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pnlDurationSegment.Name = "pnlDurationSegment";
-            this.pnlDurationSegment.Size = new System.Drawing.Size(274, 26);
+            this.pnlDurationSegment.Size = new System.Drawing.Size(411, 40);
             this.pnlDurationSegment.TabIndex = 7;
             // 
             // btnDurationStandard
@@ -1228,9 +1270,9 @@ namespace BT_TNC_Dot_NET
             this.btnDurationStandard.ForeColor = System.Drawing.Color.White;
             this.btnDurationStandard.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(102)))), ((int)(((byte)(241)))));
             this.btnDurationStandard.Location = new System.Drawing.Point(0, 0);
-            this.btnDurationStandard.Margin = new System.Windows.Forms.Padding(0, 0, 4, 0);
+            this.btnDurationStandard.Margin = new System.Windows.Forms.Padding(0, 0, 6, 0);
             this.btnDurationStandard.Name = "btnDurationStandard";
-            this.btnDurationStandard.Size = new System.Drawing.Size(86, 22);
+            this.btnDurationStandard.Size = new System.Drawing.Size(129, 34);
             this.btnDurationStandard.TabIndex = 0;
             this.btnDurationStandard.Text = "⏱️ Chuẩn";
             this.btnDurationStandard.UseVisualStyleBackColor = false;
@@ -1249,10 +1291,10 @@ namespace BT_TNC_Dot_NET
             this.btnDurationShort.Font = new System.Drawing.Font("Segoe UI", 7.5F);
             this.btnDurationShort.ForeColor = System.Drawing.Color.White;
             this.btnDurationShort.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(102)))), ((int)(((byte)(241)))));
-            this.btnDurationShort.Location = new System.Drawing.Point(90, 0);
-            this.btnDurationShort.Margin = new System.Windows.Forms.Padding(0, 0, 4, 0);
+            this.btnDurationShort.Location = new System.Drawing.Point(135, 0);
+            this.btnDurationShort.Margin = new System.Windows.Forms.Padding(0, 0, 6, 0);
             this.btnDurationShort.Name = "btnDurationShort";
-            this.btnDurationShort.Size = new System.Drawing.Size(86, 22);
+            this.btnDurationShort.Size = new System.Drawing.Size(129, 34);
             this.btnDurationShort.TabIndex = 1;
             this.btnDurationShort.Text = "⚡ Nhanh (-0.3s)";
             this.btnDurationShort.UseVisualStyleBackColor = false;
@@ -1271,10 +1313,10 @@ namespace BT_TNC_Dot_NET
             this.btnDurationLong.Font = new System.Drawing.Font("Segoe UI", 7.5F);
             this.btnDurationLong.ForeColor = System.Drawing.Color.White;
             this.btnDurationLong.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(102)))), ((int)(((byte)(241)))));
-            this.btnDurationLong.Location = new System.Drawing.Point(180, 0);
+            this.btnDurationLong.Location = new System.Drawing.Point(270, 0);
             this.btnDurationLong.Margin = new System.Windows.Forms.Padding(0);
             this.btnDurationLong.Name = "btnDurationLong";
-            this.btnDurationLong.Size = new System.Drawing.Size(90, 22);
+            this.btnDurationLong.Size = new System.Drawing.Size(135, 34);
             this.btnDurationLong.TabIndex = 2;
             this.btnDurationLong.Text = "☕ Dài (+0.5s)";
             this.btnDurationLong.UseVisualStyleBackColor = false;
@@ -1285,9 +1327,10 @@ namespace BT_TNC_Dot_NET
             this.lblPitchTuningTitle.AutoSize = true;
             this.lblPitchTuningTitle.Font = new System.Drawing.Font("Segoe UI Semibold", 8F);
             this.lblPitchTuningTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
-            this.lblPitchTuningTitle.Location = new System.Drawing.Point(10, 214);
+            this.lblPitchTuningTitle.Location = new System.Drawing.Point(15, 329);
+            this.lblPitchTuningTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPitchTuningTitle.Name = "lblPitchTuningTitle";
-            this.lblPitchTuningTitle.Size = new System.Drawing.Size(167, 13);
+            this.lblPitchTuningTitle.Size = new System.Drawing.Size(241, 21);
             this.lblPitchTuningTitle.TabIndex = 8;
             this.lblPitchTuningTitle.Text = "🎼 Cao Giọng (Semitones / Hz):";
             // 
@@ -1298,9 +1341,10 @@ namespace BT_TNC_Dot_NET
             this.pnlPitchSegment.Controls.Add(this.btnPitchNormal);
             this.pnlPitchSegment.Controls.Add(this.btnPitchHigh);
             this.pnlPitchSegment.Controls.Add(this.btnPitchBright);
-            this.pnlPitchSegment.Location = new System.Drawing.Point(10, 229);
+            this.pnlPitchSegment.Location = new System.Drawing.Point(15, 352);
+            this.pnlPitchSegment.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pnlPitchSegment.Name = "pnlPitchSegment";
-            this.pnlPitchSegment.Size = new System.Drawing.Size(274, 52);
+            this.pnlPitchSegment.Size = new System.Drawing.Size(411, 80);
             this.pnlPitchSegment.TabIndex = 9;
             // 
             // btnPitchDeep
@@ -1317,9 +1361,9 @@ namespace BT_TNC_Dot_NET
             this.btnPitchDeep.ForeColor = System.Drawing.Color.White;
             this.btnPitchDeep.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(102)))), ((int)(((byte)(241)))));
             this.btnPitchDeep.Location = new System.Drawing.Point(0, 0);
-            this.btnPitchDeep.Margin = new System.Windows.Forms.Padding(0, 0, 4, 4);
+            this.btnPitchDeep.Margin = new System.Windows.Forms.Padding(0, 0, 6, 6);
             this.btnPitchDeep.Name = "btnPitchDeep";
-            this.btnPitchDeep.Size = new System.Drawing.Size(86, 22);
+            this.btnPitchDeep.Size = new System.Drawing.Size(129, 34);
             this.btnPitchDeep.TabIndex = 0;
             this.btnPitchDeep.Text = "🎻 -4 ST";
             this.btnPitchDeep.UseVisualStyleBackColor = false;
@@ -1338,10 +1382,10 @@ namespace BT_TNC_Dot_NET
             this.btnPitchLow.Font = new System.Drawing.Font("Segoe UI", 7.5F);
             this.btnPitchLow.ForeColor = System.Drawing.Color.White;
             this.btnPitchLow.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(102)))), ((int)(((byte)(241)))));
-            this.btnPitchLow.Location = new System.Drawing.Point(90, 0);
-            this.btnPitchLow.Margin = new System.Windows.Forms.Padding(0, 0, 4, 4);
+            this.btnPitchLow.Location = new System.Drawing.Point(135, 0);
+            this.btnPitchLow.Margin = new System.Windows.Forms.Padding(0, 0, 6, 6);
             this.btnPitchLow.Name = "btnPitchLow";
-            this.btnPitchLow.Size = new System.Drawing.Size(86, 22);
+            this.btnPitchLow.Size = new System.Drawing.Size(129, 34);
             this.btnPitchLow.TabIndex = 1;
             this.btnPitchLow.Text = "🎷 -2 ST";
             this.btnPitchLow.UseVisualStyleBackColor = false;
@@ -1360,10 +1404,10 @@ namespace BT_TNC_Dot_NET
             this.btnPitchNormal.Font = new System.Drawing.Font("Segoe UI", 7.5F);
             this.btnPitchNormal.ForeColor = System.Drawing.Color.White;
             this.btnPitchNormal.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(102)))), ((int)(((byte)(241)))));
-            this.btnPitchNormal.Location = new System.Drawing.Point(180, 0);
-            this.btnPitchNormal.Margin = new System.Windows.Forms.Padding(0, 0, 0, 4);
+            this.btnPitchNormal.Location = new System.Drawing.Point(270, 0);
+            this.btnPitchNormal.Margin = new System.Windows.Forms.Padding(0, 0, 0, 6);
             this.btnPitchNormal.Name = "btnPitchNormal";
-            this.btnPitchNormal.Size = new System.Drawing.Size(90, 22);
+            this.btnPitchNormal.Size = new System.Drawing.Size(135, 34);
             this.btnPitchNormal.TabIndex = 2;
             this.btnPitchNormal.Text = "🎼 0 ST";
             this.btnPitchNormal.UseVisualStyleBackColor = false;
@@ -1382,10 +1426,10 @@ namespace BT_TNC_Dot_NET
             this.btnPitchHigh.Font = new System.Drawing.Font("Segoe UI", 7.5F);
             this.btnPitchHigh.ForeColor = System.Drawing.Color.White;
             this.btnPitchHigh.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(102)))), ((int)(((byte)(241)))));
-            this.btnPitchHigh.Location = new System.Drawing.Point(0, 26);
-            this.btnPitchHigh.Margin = new System.Windows.Forms.Padding(0, 0, 4, 0);
+            this.btnPitchHigh.Location = new System.Drawing.Point(0, 40);
+            this.btnPitchHigh.Margin = new System.Windows.Forms.Padding(0, 0, 6, 0);
             this.btnPitchHigh.Name = "btnPitchHigh";
-            this.btnPitchHigh.Size = new System.Drawing.Size(132, 22);
+            this.btnPitchHigh.Size = new System.Drawing.Size(198, 34);
             this.btnPitchHigh.TabIndex = 3;
             this.btnPitchHigh.Text = "🎺 +2 ST (Nữ cao)";
             this.btnPitchHigh.UseVisualStyleBackColor = false;
@@ -1404,10 +1448,10 @@ namespace BT_TNC_Dot_NET
             this.btnPitchBright.Font = new System.Drawing.Font("Segoe UI", 7.5F);
             this.btnPitchBright.ForeColor = System.Drawing.Color.White;
             this.btnPitchBright.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(102)))), ((int)(((byte)(241)))));
-            this.btnPitchBright.Location = new System.Drawing.Point(136, 26);
+            this.btnPitchBright.Location = new System.Drawing.Point(204, 40);
             this.btnPitchBright.Margin = new System.Windows.Forms.Padding(0);
             this.btnPitchBright.Name = "btnPitchBright";
-            this.btnPitchBright.Size = new System.Drawing.Size(134, 22);
+            this.btnPitchBright.Size = new System.Drawing.Size(201, 34);
             this.btnPitchBright.TabIndex = 4;
             this.btnPitchBright.Text = "🔔 +4 ST (Thanh)";
             this.btnPitchBright.UseVisualStyleBackColor = false;
@@ -1418,9 +1462,10 @@ namespace BT_TNC_Dot_NET
             this.lblStyleSectionTitle.AutoSize = true;
             this.lblStyleSectionTitle.Font = new System.Drawing.Font("Segoe UI Semibold", 8.5F, System.Drawing.FontStyle.Bold);
             this.lblStyleSectionTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(232)))), ((int)(((byte)(240)))));
-            this.lblStyleSectionTitle.Location = new System.Drawing.Point(10, 286);
+            this.lblStyleSectionTitle.Location = new System.Drawing.Point(15, 440);
+            this.lblStyleSectionTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblStyleSectionTitle.Name = "lblStyleSectionTitle";
-            this.lblStyleSectionTitle.Size = new System.Drawing.Size(152, 15);
+            this.lblStyleSectionTitle.Size = new System.Drawing.Size(225, 23);
             this.lblStyleSectionTitle.TabIndex = 10;
             this.lblStyleSectionTitle.Text = "🎭 Phong Cách Đọc (Style):";
             // 
@@ -1430,9 +1475,10 @@ namespace BT_TNC_Dot_NET
             this.pnlStyleSegment.Controls.Add(this.btnStyleNews);
             this.pnlStyleSegment.Controls.Add(this.btnStyleStory);
             this.pnlStyleSegment.Controls.Add(this.btnStyleDrama);
-            this.pnlStyleSegment.Location = new System.Drawing.Point(10, 302);
+            this.pnlStyleSegment.Location = new System.Drawing.Point(15, 465);
+            this.pnlStyleSegment.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pnlStyleSegment.Name = "pnlStyleSegment";
-            this.pnlStyleSegment.Size = new System.Drawing.Size(274, 52);
+            this.pnlStyleSegment.Size = new System.Drawing.Size(411, 80);
             this.pnlStyleSegment.TabIndex = 11;
             // 
             // btnStyleNatural
@@ -1449,9 +1495,9 @@ namespace BT_TNC_Dot_NET
             this.btnStyleNatural.ForeColor = System.Drawing.Color.White;
             this.btnStyleNatural.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(102)))), ((int)(((byte)(241)))));
             this.btnStyleNatural.Location = new System.Drawing.Point(0, 0);
-            this.btnStyleNatural.Margin = new System.Windows.Forms.Padding(0, 0, 4, 4);
+            this.btnStyleNatural.Margin = new System.Windows.Forms.Padding(0, 0, 6, 6);
             this.btnStyleNatural.Name = "btnStyleNatural";
-            this.btnStyleNatural.Size = new System.Drawing.Size(132, 22);
+            this.btnStyleNatural.Size = new System.Drawing.Size(198, 34);
             this.btnStyleNatural.TabIndex = 0;
             this.btnStyleNatural.Text = "🌿 Tự nhiên";
             this.btnStyleNatural.UseVisualStyleBackColor = false;
@@ -1470,10 +1516,10 @@ namespace BT_TNC_Dot_NET
             this.btnStyleNews.Font = new System.Drawing.Font("Segoe UI", 7.5F);
             this.btnStyleNews.ForeColor = System.Drawing.Color.White;
             this.btnStyleNews.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(102)))), ((int)(((byte)(241)))));
-            this.btnStyleNews.Location = new System.Drawing.Point(136, 0);
-            this.btnStyleNews.Margin = new System.Windows.Forms.Padding(0, 0, 0, 4);
+            this.btnStyleNews.Location = new System.Drawing.Point(204, 0);
+            this.btnStyleNews.Margin = new System.Windows.Forms.Padding(0, 0, 0, 6);
             this.btnStyleNews.Name = "btnStyleNews";
-            this.btnStyleNews.Size = new System.Drawing.Size(134, 22);
+            this.btnStyleNews.Size = new System.Drawing.Size(201, 34);
             this.btnStyleNews.TabIndex = 1;
             this.btnStyleNews.Text = "📰 Tin tức";
             this.btnStyleNews.UseVisualStyleBackColor = false;
@@ -1492,10 +1538,10 @@ namespace BT_TNC_Dot_NET
             this.btnStyleStory.Font = new System.Drawing.Font("Segoe UI", 7.5F);
             this.btnStyleStory.ForeColor = System.Drawing.Color.White;
             this.btnStyleStory.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(102)))), ((int)(((byte)(241)))));
-            this.btnStyleStory.Location = new System.Drawing.Point(0, 26);
-            this.btnStyleStory.Margin = new System.Windows.Forms.Padding(0, 0, 4, 0);
+            this.btnStyleStory.Location = new System.Drawing.Point(0, 40);
+            this.btnStyleStory.Margin = new System.Windows.Forms.Padding(0, 0, 6, 0);
             this.btnStyleStory.Name = "btnStyleStory";
-            this.btnStyleStory.Size = new System.Drawing.Size(132, 22);
+            this.btnStyleStory.Size = new System.Drawing.Size(198, 34);
             this.btnStyleStory.TabIndex = 2;
             this.btnStyleStory.Text = "📖 Đọc truyện";
             this.btnStyleStory.UseVisualStyleBackColor = false;
@@ -1514,10 +1560,10 @@ namespace BT_TNC_Dot_NET
             this.btnStyleDrama.Font = new System.Drawing.Font("Segoe UI", 7.5F);
             this.btnStyleDrama.ForeColor = System.Drawing.Color.White;
             this.btnStyleDrama.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(102)))), ((int)(((byte)(241)))));
-            this.btnStyleDrama.Location = new System.Drawing.Point(136, 26);
+            this.btnStyleDrama.Location = new System.Drawing.Point(204, 40);
             this.btnStyleDrama.Margin = new System.Windows.Forms.Padding(0);
             this.btnStyleDrama.Name = "btnStyleDrama";
-            this.btnStyleDrama.Size = new System.Drawing.Size(134, 22);
+            this.btnStyleDrama.Size = new System.Drawing.Size(201, 34);
             this.btnStyleDrama.TabIndex = 3;
             this.btnStyleDrama.Text = "🎭 Kịch nghệ";
             this.btnStyleDrama.UseVisualStyleBackColor = false;
@@ -1527,9 +1573,10 @@ namespace BT_TNC_Dot_NET
             // 
             this.lblVoiceDetails.Font = new System.Drawing.Font("Segoe UI", 8F);
             this.lblVoiceDetails.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(148)))), ((int)(((byte)(163)))), ((int)(((byte)(184)))));
-            this.lblVoiceDetails.Location = new System.Drawing.Point(10, 360);
+            this.lblVoiceDetails.Location = new System.Drawing.Point(15, 554);
+            this.lblVoiceDetails.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblVoiceDetails.Name = "lblVoiceDetails";
-            this.lblVoiceDetails.Size = new System.Drawing.Size(274, 50);
+            this.lblVoiceDetails.Size = new System.Drawing.Size(411, 77);
             this.lblVoiceDetails.TabIndex = 12;
             this.lblVoiceDetails.Text = "Ngôn ngữ: Tiếng Việt (VieNeu-TTS)\nChế độ: AI Local Offline 48kHz Chip Selected";
             this.lblVoiceDetails.Click += new System.EventHandler(this.lblVoiceDetails_Click);
@@ -1540,10 +1587,11 @@ namespace BT_TNC_Dot_NET
             this.pnlCenterEditorContainer.Controls.Add(this.cardPlaybackStatus);
             this.pnlCenterEditorContainer.Controls.Add(this.pnlActionButtonsContainer);
             this.pnlCenterEditorContainer.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlCenterEditorContainer.Location = new System.Drawing.Point(333, 126);
+            this.pnlCenterEditorContainer.Location = new System.Drawing.Point(500, 188);
+            this.pnlCenterEditorContainer.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pnlCenterEditorContainer.Name = "pnlCenterEditorContainer";
-            this.pnlCenterEditorContainer.Padding = new System.Windows.Forms.Padding(12, 12, 12, 12);
-            this.pnlCenterEditorContainer.Size = new System.Drawing.Size(656, 559);
+            this.pnlCenterEditorContainer.Padding = new System.Windows.Forms.Padding(18, 18, 18, 18);
+            this.pnlCenterEditorContainer.Size = new System.Drawing.Size(983, 870);
             this.pnlCenterEditorContainer.TabIndex = 2;
             this.pnlCenterEditorContainer.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlCenterEditorContainer_Paint);
             // 
@@ -1556,10 +1604,11 @@ namespace BT_TNC_Dot_NET
             this.cardTextEditor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.cardTextEditor.GradientBottomColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(34)))));
             this.cardTextEditor.GradientTopColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(44)))));
-            this.cardTextEditor.Location = new System.Drawing.Point(12, 12);
+            this.cardTextEditor.Location = new System.Drawing.Point(18, 18);
+            this.cardTextEditor.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cardTextEditor.Name = "cardTextEditor";
-            this.cardTextEditor.Padding = new System.Windows.Forms.Padding(12, 12, 12, 12);
-            this.cardTextEditor.Size = new System.Drawing.Size(632, 376);
+            this.cardTextEditor.Padding = new System.Windows.Forms.Padding(18, 18, 18, 18);
+            this.cardTextEditor.Size = new System.Drawing.Size(947, 590);
             this.cardTextEditor.TabIndex = 0;
             // 
             // txtInputContent
@@ -1570,11 +1619,12 @@ namespace BT_TNC_Dot_NET
             this.txtInputContent.Dock = System.Windows.Forms.DockStyle.Fill;
             this.txtInputContent.Font = new System.Drawing.Font("Segoe UI", 11.5F);
             this.txtInputContent.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
-            this.txtInputContent.Location = new System.Drawing.Point(12, 12);
+            this.txtInputContent.Location = new System.Drawing.Point(18, 18);
+            this.txtInputContent.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtInputContent.Multiline = true;
             this.txtInputContent.Name = "txtInputContent";
             this.txtInputContent.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtInputContent.Size = new System.Drawing.Size(608, 324);
+            this.txtInputContent.Size = new System.Drawing.Size(911, 511);
             this.txtInputContent.TabIndex = 0;
             this.txtInputContent.TextChanged += new System.EventHandler(this.txtInputContent_TextChanged);
             // 
@@ -1587,9 +1637,10 @@ namespace BT_TNC_Dot_NET
             this.pnlTextEditorFooter.Controls.Add(this.lblEmotionTag4);
             this.pnlTextEditorFooter.Controls.Add(this.lblCharAndWordCount);
             this.pnlTextEditorFooter.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlTextEditorFooter.Location = new System.Drawing.Point(12, 336);
+            this.pnlTextEditorFooter.Location = new System.Drawing.Point(18, 529);
+            this.pnlTextEditorFooter.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pnlTextEditorFooter.Name = "pnlTextEditorFooter";
-            this.pnlTextEditorFooter.Size = new System.Drawing.Size(608, 28);
+            this.pnlTextEditorFooter.Size = new System.Drawing.Size(911, 43);
             this.pnlTextEditorFooter.TabIndex = 1;
             this.pnlTextEditorFooter.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlTextEditorFooter_Paint);
             // 
@@ -1599,9 +1650,10 @@ namespace BT_TNC_Dot_NET
             this.lblEmotionTag1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblEmotionTag1.Font = new System.Drawing.Font("Segoe UI Semibold", 8.5F, System.Drawing.FontStyle.Bold);
             this.lblEmotionTag1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(185)))), ((int)(((byte)(200)))));
-            this.lblEmotionTag1.Location = new System.Drawing.Point(4, 6);
+            this.lblEmotionTag1.Location = new System.Drawing.Point(6, 9);
+            this.lblEmotionTag1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblEmotionTag1.Name = "lblEmotionTag1";
-            this.lblEmotionTag1.Size = new System.Drawing.Size(49, 15);
+            this.lblEmotionTag1.Size = new System.Drawing.Size(72, 23);
             this.lblEmotionTag1.TabIndex = 0;
             this.lblEmotionTag1.Text = "+ [cười]";
             this.lblEmotionTag1.Click += new System.EventHandler(this.lblEmotionTag_Click);
@@ -1612,9 +1664,10 @@ namespace BT_TNC_Dot_NET
             this.lblEmotionTag2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblEmotionTag2.Font = new System.Drawing.Font("Segoe UI Semibold", 8.5F, System.Drawing.FontStyle.Bold);
             this.lblEmotionTag2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(185)))), ((int)(((byte)(200)))));
-            this.lblEmotionTag2.Location = new System.Drawing.Point(52, 6);
+            this.lblEmotionTag2.Location = new System.Drawing.Point(78, 9);
+            this.lblEmotionTag2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblEmotionTag2.Name = "lblEmotionTag2";
-            this.lblEmotionTag2.Size = new System.Drawing.Size(63, 15);
+            this.lblEmotionTag2.Size = new System.Drawing.Size(93, 23);
             this.lblEmotionTag2.TabIndex = 1;
             this.lblEmotionTag2.Text = "+ [thở dài]";
             this.lblEmotionTag2.Click += new System.EventHandler(this.lblEmotionTag_Click);
@@ -1625,9 +1678,10 @@ namespace BT_TNC_Dot_NET
             this.lblEmotionTag3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblEmotionTag3.Font = new System.Drawing.Font("Segoe UI Semibold", 8.5F, System.Drawing.FontStyle.Bold);
             this.lblEmotionTag3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(185)))), ((int)(((byte)(200)))));
-            this.lblEmotionTag3.Location = new System.Drawing.Point(112, 6);
+            this.lblEmotionTag3.Location = new System.Drawing.Point(168, 9);
+            this.lblEmotionTag3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblEmotionTag3.Name = "lblEmotionTag3";
-            this.lblEmotionTag3.Size = new System.Drawing.Size(87, 15);
+            this.lblEmotionTag3.Size = new System.Drawing.Size(127, 23);
             this.lblEmotionTag3.TabIndex = 2;
             this.lblEmotionTag3.Text = "+ [hắng giọng]";
             this.lblEmotionTag3.Click += new System.EventHandler(this.lblEmotionTag_Click);
@@ -1638,9 +1692,10 @@ namespace BT_TNC_Dot_NET
             this.lblEmotionTag4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblEmotionTag4.Font = new System.Drawing.Font("Segoe UI Semibold", 8.5F, System.Drawing.FontStyle.Bold);
             this.lblEmotionTag4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(185)))), ((int)(((byte)(200)))));
-            this.lblEmotionTag4.Location = new System.Drawing.Point(188, 6);
+            this.lblEmotionTag4.Location = new System.Drawing.Point(282, 9);
+            this.lblEmotionTag4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblEmotionTag4.Name = "lblEmotionTag4";
-            this.lblEmotionTag4.Size = new System.Drawing.Size(71, 15);
+            this.lblEmotionTag4.Size = new System.Drawing.Size(104, 23);
             this.lblEmotionTag4.TabIndex = 3;
             this.lblEmotionTag4.Text = "+ [thì thầm]";
             this.lblEmotionTag4.Click += new System.EventHandler(this.lblEmotionTag_Click);
@@ -1651,9 +1706,10 @@ namespace BT_TNC_Dot_NET
             this.lblCharAndWordCount.AutoSize = true;
             this.lblCharAndWordCount.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.lblCharAndWordCount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(148)))), ((int)(((byte)(163)))), ((int)(((byte)(184)))));
-            this.lblCharAndWordCount.Location = new System.Drawing.Point(481, 6);
+            this.lblCharAndWordCount.Location = new System.Drawing.Point(721, 9);
+            this.lblCharAndWordCount.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCharAndWordCount.Name = "lblCharAndWordCount";
-            this.lblCharAndWordCount.Size = new System.Drawing.Size(71, 15);
+            this.lblCharAndWordCount.Size = new System.Drawing.Size(113, 25);
             this.lblCharAndWordCount.TabIndex = 4;
             this.lblCharAndWordCount.Text = "0 ký tự | 0 từ";
             // 
@@ -1667,10 +1723,11 @@ namespace BT_TNC_Dot_NET
             this.cardPlaybackStatus.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.cardPlaybackStatus.GradientBottomColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(34)))));
             this.cardPlaybackStatus.GradientTopColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(44)))));
-            this.cardPlaybackStatus.Location = new System.Drawing.Point(12, 388);
+            this.cardPlaybackStatus.Location = new System.Drawing.Point(18, 608);
+            this.cardPlaybackStatus.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cardPlaybackStatus.Name = "cardPlaybackStatus";
-            this.cardPlaybackStatus.Padding = new System.Windows.Forms.Padding(12, 6, 12, 6);
-            this.cardPlaybackStatus.Size = new System.Drawing.Size(632, 49);
+            this.cardPlaybackStatus.Padding = new System.Windows.Forms.Padding(18, 9, 18, 9);
+            this.cardPlaybackStatus.Size = new System.Drawing.Size(947, 75);
             this.cardPlaybackStatus.TabIndex = 1;
             // 
             // lblPlaybackStatusInfo
@@ -1679,9 +1736,10 @@ namespace BT_TNC_Dot_NET
             this.lblPlaybackStatusInfo.BackColor = System.Drawing.Color.Transparent;
             this.lblPlaybackStatusInfo.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
             this.lblPlaybackStatusInfo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(232)))), ((int)(((byte)(240)))));
-            this.lblPlaybackStatusInfo.Location = new System.Drawing.Point(12, 8);
+            this.lblPlaybackStatusInfo.Location = new System.Drawing.Point(18, 12);
+            this.lblPlaybackStatusInfo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPlaybackStatusInfo.Name = "lblPlaybackStatusInfo";
-            this.lblPlaybackStatusInfo.Size = new System.Drawing.Size(139, 15);
+            this.lblPlaybackStatusInfo.Size = new System.Drawing.Size(222, 25);
             this.lblPlaybackStatusInfo.TabIndex = 0;
             this.lblPlaybackStatusInfo.Text = "⏹ Sẵn sàng đọc văn bản";
             // 
@@ -1693,9 +1751,10 @@ namespace BT_TNC_Dot_NET
             this.waveformVisualizer.BarColorEnd = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(100)))), ((int)(((byte)(255)))));
             this.waveformVisualizer.BarColorStart = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(120)))), ((int)(((byte)(212)))));
             this.waveformVisualizer.IsPlaying = false;
-            this.waveformVisualizer.Location = new System.Drawing.Point(12, 20);
+            this.waveformVisualizer.Location = new System.Drawing.Point(18, 31);
+            this.waveformVisualizer.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.waveformVisualizer.Name = "waveformVisualizer";
-            this.waveformVisualizer.Size = new System.Drawing.Size(608, 24);
+            this.waveformVisualizer.Size = new System.Drawing.Size(911, 37);
             this.waveformVisualizer.TabIndex = 1;
             // 
             // pnlActionButtonsContainer
@@ -1705,9 +1764,10 @@ namespace BT_TNC_Dot_NET
             this.pnlActionButtonsContainer.Controls.Add(this.btnPauseAudio);
             this.pnlActionButtonsContainer.Controls.Add(this.btnPlayText);
             this.pnlActionButtonsContainer.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlActionButtonsContainer.Location = new System.Drawing.Point(12, 437);
+            this.pnlActionButtonsContainer.Location = new System.Drawing.Point(18, 683);
+            this.pnlActionButtonsContainer.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pnlActionButtonsContainer.Name = "pnlActionButtonsContainer";
-            this.pnlActionButtonsContainer.Size = new System.Drawing.Size(632, 110);
+            this.pnlActionButtonsContainer.Size = new System.Drawing.Size(947, 169);
             this.pnlActionButtonsContainer.TabIndex = 2;
             // 
             // btnClearInputText
@@ -1725,9 +1785,10 @@ namespace BT_TNC_Dot_NET
             this.btnClearInputText.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
             this.btnClearInputText.ForeColor = System.Drawing.Color.White;
             this.btnClearInputText.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(85)))), ((int)(((byte)(105)))));
-            this.btnClearInputText.Location = new System.Drawing.Point(7, 68);
+            this.btnClearInputText.Location = new System.Drawing.Point(10, 105);
+            this.btnClearInputText.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnClearInputText.Name = "btnClearInputText";
-            this.btnClearInputText.Size = new System.Drawing.Size(621, 34);
+            this.btnClearInputText.Size = new System.Drawing.Size(931, 52);
             this.btnClearInputText.TabIndex = 3;
             this.btnClearInputText.Text = "🗑️ Xóa Nội Dung Văn Bản";
             this.btnClearInputText.UseVisualStyleBackColor = false;
@@ -1746,9 +1807,10 @@ namespace BT_TNC_Dot_NET
             this.btnStopAudio.Font = new System.Drawing.Font("Segoe UI Semibold", 9.5F, System.Drawing.FontStyle.Bold);
             this.btnStopAudio.ForeColor = System.Drawing.Color.White;
             this.btnStopAudio.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(63)))), ((int)(((byte)(94)))));
-            this.btnStopAudio.Location = new System.Drawing.Point(483, 12);
+            this.btnStopAudio.Location = new System.Drawing.Point(723, 18);
+            this.btnStopAudio.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnStopAudio.Name = "btnStopAudio";
-            this.btnStopAudio.Size = new System.Drawing.Size(144, 48);
+            this.btnStopAudio.Size = new System.Drawing.Size(216, 74);
             this.btnStopAudio.TabIndex = 2;
             this.btnStopAudio.Text = "⏹ Dừng";
             this.btnStopAudio.UseVisualStyleBackColor = false;
@@ -1767,9 +1829,10 @@ namespace BT_TNC_Dot_NET
             this.btnPauseAudio.Font = new System.Drawing.Font("Segoe UI Semibold", 9.5F, System.Drawing.FontStyle.Bold);
             this.btnPauseAudio.ForeColor = System.Drawing.Color.White;
             this.btnPauseAudio.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(158)))), ((int)(((byte)(11)))));
-            this.btnPauseAudio.Location = new System.Drawing.Point(338, 12);
+            this.btnPauseAudio.Location = new System.Drawing.Point(506, 18);
+            this.btnPauseAudio.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnPauseAudio.Name = "btnPauseAudio";
-            this.btnPauseAudio.Size = new System.Drawing.Size(140, 48);
+            this.btnPauseAudio.Size = new System.Drawing.Size(210, 74);
             this.btnPauseAudio.TabIndex = 1;
             this.btnPauseAudio.Text = "⏸ Tạm Dừng";
             this.btnPauseAudio.UseVisualStyleBackColor = false;
@@ -1790,9 +1853,10 @@ namespace BT_TNC_Dot_NET
             this.btnPlayText.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.btnPlayText.ForeColor = System.Drawing.Color.White;
             this.btnPlayText.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(140)))), ((int)(((byte)(230)))));
-            this.btnPlayText.Location = new System.Drawing.Point(7, 12);
+            this.btnPlayText.Location = new System.Drawing.Point(10, 18);
+            this.btnPlayText.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnPlayText.Name = "btnPlayText";
-            this.btnPlayText.Size = new System.Drawing.Size(326, 48);
+            this.btnPlayText.Size = new System.Drawing.Size(488, 74);
             this.btnPlayText.TabIndex = 0;
             this.btnPlayText.Text = "▶  ĐỌC VĂN BẢN (F5)";
             this.btnPlayText.UseVisualStyleBackColor = false;
@@ -1802,10 +1866,11 @@ namespace BT_TNC_Dot_NET
             // 
             this.pnlRightHistorySidebar.Controls.Add(this.cardHistoryLogs);
             this.pnlRightHistorySidebar.Dock = System.Windows.Forms.DockStyle.Right;
-            this.pnlRightHistorySidebar.Location = new System.Drawing.Point(989, 126);
+            this.pnlRightHistorySidebar.Location = new System.Drawing.Point(1483, 188);
+            this.pnlRightHistorySidebar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pnlRightHistorySidebar.Name = "pnlRightHistorySidebar";
-            this.pnlRightHistorySidebar.Padding = new System.Windows.Forms.Padding(12, 12, 12, 12);
-            this.pnlRightHistorySidebar.Size = new System.Drawing.Size(161, 559);
+            this.pnlRightHistorySidebar.Padding = new System.Windows.Forms.Padding(18, 18, 18, 18);
+            this.pnlRightHistorySidebar.Size = new System.Drawing.Size(242, 870);
             this.pnlRightHistorySidebar.TabIndex = 3;
             this.pnlRightHistorySidebar.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlRightHistorySidebar_Paint);
             // 
@@ -1819,10 +1884,11 @@ namespace BT_TNC_Dot_NET
             this.cardHistoryLogs.Dock = System.Windows.Forms.DockStyle.Fill;
             this.cardHistoryLogs.GradientBottomColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(34)))));
             this.cardHistoryLogs.GradientTopColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(44)))));
-            this.cardHistoryLogs.Location = new System.Drawing.Point(12, 12);
+            this.cardHistoryLogs.Location = new System.Drawing.Point(18, 18);
+            this.cardHistoryLogs.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cardHistoryLogs.Name = "cardHistoryLogs";
-            this.cardHistoryLogs.Padding = new System.Windows.Forms.Padding(10, 10, 10, 10);
-            this.cardHistoryLogs.Size = new System.Drawing.Size(137, 535);
+            this.cardHistoryLogs.Padding = new System.Windows.Forms.Padding(15, 15, 15, 15);
+            this.cardHistoryLogs.Size = new System.Drawing.Size(206, 834);
             this.cardHistoryLogs.TabIndex = 0;
             // 
             // lblHistorySectionTitle
@@ -1830,9 +1896,10 @@ namespace BT_TNC_Dot_NET
             this.lblHistorySectionTitle.AutoSize = true;
             this.lblHistorySectionTitle.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
             this.lblHistorySectionTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(232)))), ((int)(((byte)(240)))));
-            this.lblHistorySectionTitle.Location = new System.Drawing.Point(10, 8);
+            this.lblHistorySectionTitle.Location = new System.Drawing.Point(15, 12);
+            this.lblHistorySectionTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblHistorySectionTitle.Name = "lblHistorySectionTitle";
-            this.lblHistorySectionTitle.Size = new System.Drawing.Size(109, 19);
+            this.lblHistorySectionTitle.Size = new System.Drawing.Size(152, 28);
             this.lblHistorySectionTitle.TabIndex = 0;
             this.lblHistorySectionTitle.Text = "📜 Lịch Sử Đọc";
             // 
@@ -1846,10 +1913,11 @@ namespace BT_TNC_Dot_NET
             this.lstHistoryLogs.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.lstHistoryLogs.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(232)))), ((int)(((byte)(240)))));
             this.lstHistoryLogs.FormattingEnabled = true;
-            this.lstHistoryLogs.ItemHeight = 15;
-            this.lstHistoryLogs.Location = new System.Drawing.Point(10, 34);
+            this.lstHistoryLogs.ItemHeight = 25;
+            this.lstHistoryLogs.Location = new System.Drawing.Point(15, 52);
+            this.lstHistoryLogs.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lstHistoryLogs.Name = "lstHistoryLogs";
-            this.lstHistoryLogs.Size = new System.Drawing.Size(117, 405);
+            this.lstHistoryLogs.Size = new System.Drawing.Size(176, 600);
             this.lstHistoryLogs.TabIndex = 1;
             this.lstHistoryLogs.SelectedIndexChanged += new System.EventHandler(this.lstHistoryLogs_SelectedIndexChanged);
             // 
@@ -1868,9 +1936,10 @@ namespace BT_TNC_Dot_NET
             this.btnClearHistoryRecords.Font = new System.Drawing.Font("Segoe UI Semibold", 8.5F, System.Drawing.FontStyle.Bold);
             this.btnClearHistoryRecords.ForeColor = System.Drawing.Color.White;
             this.btnClearHistoryRecords.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.btnClearHistoryRecords.Location = new System.Drawing.Point(10, 489);
+            this.btnClearHistoryRecords.Location = new System.Drawing.Point(15, 763);
+            this.btnClearHistoryRecords.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnClearHistoryRecords.Name = "btnClearHistoryRecords";
-            this.btnClearHistoryRecords.Size = new System.Drawing.Size(117, 36);
+            this.btnClearHistoryRecords.Size = new System.Drawing.Size(176, 55);
             this.btnClearHistoryRecords.TabIndex = 2;
             this.btnClearHistoryRecords.Text = "🗑️ Xóa Lịch Sử";
             this.btnClearHistoryRecords.UseVisualStyleBackColor = false;
@@ -1878,10 +1947,10 @@ namespace BT_TNC_Dot_NET
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(24)))));
-            this.ClientSize = new System.Drawing.Size(1150, 707);
+            this.ClientSize = new System.Drawing.Size(1725, 1088);
             this.Controls.Add(this.pnlCenterEditorContainer);
             this.Controls.Add(this.pnlRightHistorySidebar);
             this.Controls.Add(this.pnlLeftControlSidebar);
@@ -1891,7 +1960,8 @@ namespace BT_TNC_Dot_NET
             this.Controls.Add(this.pnlHeaderCard);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MainMenuStrip = this.mainMenuStrip;
-            this.MinimumSize = new System.Drawing.Size(1000, 660);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.MinimumSize = new System.Drawing.Size(1500, 1015);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "VoiceCraft Studio Pro";

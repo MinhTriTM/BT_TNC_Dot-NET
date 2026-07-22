@@ -40,7 +40,28 @@ namespace BT_TNC_Dot_NET
             string vieneuDir = Path.Combine(Application.StartupPath, "VieNeu-TTS");
             if (!Directory.Exists(vieneuDir))
             {
-                vieneuDir = @"D:\Download\.Net\Bài Tự Nghiên Cứu\TTS_Windows_App\VieNeu-TTS";
+                // Thử tìm ngược lên các thư mục cha để định vị thư mục VieNeu-TTS (cho môi trường phát triển)
+                string currentDir = Application.StartupPath;
+                bool found = false;
+                for (int i = 0; i < 4; i++) // Quét ngược lên tối đa 4 cấp thư mục cha
+                {
+                    string checkPath = Path.Combine(currentDir, "VieNeu-TTS");
+                    if (Directory.Exists(checkPath))
+                    {
+                        vieneuDir = Path.GetFullPath(checkPath);
+                        found = true;
+                        break;
+                    }
+                    string parent = Directory.GetParent(currentDir)?.FullName;
+                    if (string.IsNullOrEmpty(parent) || parent == currentDir) break;
+                    currentDir = parent;
+                }
+
+                if (!found)
+                {
+                    // Fallback về đường dẫn dự án hiện tại nếu không tự tìm thấy
+                    vieneuDir = @"D:\Download\.Net\Bài Tự Nghiên Cứu\BT_TNC_Dot-NET\VieNeu-TTS";
+                }
             }
             _vieNeuService = new VieNeuTtsService(vieneuDir);
 
